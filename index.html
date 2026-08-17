@@ -4,17 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Briefing · Monday, August 17</title>
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e1013">
   <style>
-    :root { --ink:#202124; --mute:#5f6368; --line:#e8eaed; --bg:#f8f9fa; --card:#fff; --red:#c5221f; --blue:#1a73e8; }
+    :root {
+      --ink:#e8eaed; --mute:#9aa0a6; --line:#3c4043; --bg:#0e1013; --card:#1a1d21;
+      --red:#f28b82; --blue:#8ab4f8; --lead:#c4c7c5; --header:#15181c;
+    }
     * { box-sizing: border-box; }
     html, body { margin: 0; background: var(--bg); color: var(--ink); }
-    body { font-family: "Google Sans", "Segoe UI", system-ui, sans-serif; line-height: 1.35; -webkit-text-size-adjust: 100%; }
-    header { background: #fff; border-bottom: 1px solid var(--line); padding: 16px 18px 12px; position: sticky; top: 0; }
+    body { font-family: "Google Sans", "Segoe UI", system-ui, sans-serif; line-height: 1.35; -webkit-text-size-adjust: 100%; color-scheme: dark; }
+    header { background: var(--header); border-bottom: 1px solid var(--line); padding: 16px 18px 12px; position: sticky; top: 0; }
     .brand { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--red); font-weight: 700; }
     header h1 { margin: 4px 0 0; font-size: 26px; font-weight: 500; }
     .when { color: var(--mute); font-size: 13px; margin-top: 2px; }
     main { max-width: 980px; margin: 0 auto; padding: 16px 14px 40px; }
-    .lead { font-size: 18px; margin: 4px 0 16px; color: #3c4043; }
+    .lead { font-size: 18px; margin: 4px 0 16px; color: var(--lead); }
     .sec { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); margin: 18px 2px 8px; }
     .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
     @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } .grid.three { grid-template-columns: 1fr 1fr 1fr; } }
@@ -23,10 +28,10 @@
       padding: 14px 14px 12px; text-decoration: none; color: inherit;
       -webkit-tap-highlight-color: transparent;
     }
-    a.card:hover { border-color: #c4c7c5; box-shadow: 0 1px 6px rgba(60,64,67,.12); }
+    a.card:hover { border-color: #5f6368; box-shadow: 0 1px 8px rgba(0,0,0,.45); }
     a.card .k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); }
     a.card h2 { margin: 6px 0 6px; font-size: 18px; font-weight: 600; line-height: 1.25; }
-    a.card p { margin: 0; font-size: 14px; color: #3c4043; }
+    a.card p { margin: 0; font-size: 14px; color: var(--lead); }
     a.card .src { margin-top: 8px; font-size: 12px; color: var(--mute); }
     footer { margin: 22px 2px 0; font-size: 12px; color: var(--mute); }
   </style>
