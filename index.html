@@ -3,130 +3,173 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sunday briefing — 16 August 2026</title>
+  <title>Briefing · Sunday, August 16</title>
   <style>
-    :root { --ink:#1a1a1a; --mute:#5c5c5c; --rule:#d8d8d8; --paper:#f7f5f0; --card:#fff; --accent:#c5221f; }
+    :root { --ink:#202124; --mute:#5f6368; --line:#e8eaed; --bg:#f8f9fa; --card:#fff; --red:#c5221f; --blue:#1a73e8; }
     * { box-sizing: border-box; }
-    html, body { margin: 0; background: var(--paper); color: var(--ink); }
-    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.45; -webkit-text-size-adjust: 100%; }
-    header { background: #111; color: #fff; padding: 18px 20px 14px; }
-    .kicker { font-family: "Segoe UI", system-ui, sans-serif; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: #c9c9c9; }
-    header h1 { margin: 6px 0 2px; font-size: 28px; }
-    .when { font-family: "Segoe UI", system-ui, sans-serif; font-size: 13px; color: #bdbdbd; }
-    main { max-width: 920px; margin: 0 auto; padding: 18px 16px 48px; }
-    .lead { font-size: 20px; margin: 4px 0 18px; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
-    @media (min-width: 720px) { .grid.two { grid-template-columns: 1fr 1fr; } }
-    article { background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 16px; }
-    article h2 { margin: 6px 0 8px; font-size: 21px; }
-    .tag { font-family: "Segoe UI", system-ui, sans-serif; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
-    ul { margin: 8px 0 0; padding-left: 1.15em; }
-    li { margin: .4em 0; }
-    .wx { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
-    .temp { font-size: 34px; font-weight: 700; letter-spacing: -.03em; }
-    .sub { font-family: "Segoe UI", system-ui, sans-serif; font-size: 14px; color: var(--mute); }
-    footer { margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--rule); font-family: "Segoe UI", system-ui, sans-serif; font-size: 12px; color: var(--mute); }
+    html, body { margin: 0; background: var(--bg); color: var(--ink); }
+    body { font-family: "Google Sans", "Segoe UI", system-ui, sans-serif; line-height: 1.35; -webkit-text-size-adjust: 100%; }
+    header { background: #fff; border-bottom: 1px solid var(--line); padding: 16px 18px 12px; position: sticky; top: 0; }
+    .brand { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--red); font-weight: 700; }
+    header h1 { margin: 4px 0 0; font-size: 26px; font-weight: 500; }
+    .when { color: var(--mute); font-size: 13px; margin-top: 2px; }
+    main { max-width: 980px; margin: 0 auto; padding: 16px 14px 40px; }
+    .lead { font-size: 18px; margin: 4px 0 16px; color: #3c4043; }
+    .sec { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); margin: 18px 2px 8px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } .grid.three { grid-template-columns: 1fr 1fr 1fr; } }
+    a.card {
+      display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 14px 14px 12px; text-decoration: none; color: inherit;
+      -webkit-tap-highlight-color: transparent;
+    }
+    a.card:hover { border-color: #c4c7c5; box-shadow: 0 1px 6px rgba(60,64,67,.12); }
+    a.card .k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); }
+    a.card h2 { margin: 6px 0 6px; font-size: 18px; font-weight: 600; line-height: 1.25; }
+    a.card p { margin: 0; font-size: 14px; color: #3c4043; }
+    a.card .src { margin-top: 8px; font-size: 12px; color: var(--mute); }
+    footer { margin: 22px 2px 0; font-size: 12px; color: var(--mute); }
   </style>
 </head>
 <body>
   <header>
-    <div class="kicker">Daily briefing</div>
-    <h1>Jay Todd</h1>
-    <div class="when">Sunday, 16 August 2026 · tonight · Laurinburg · North Myrtle Beach</div>
+    <div class="brand">Daily briefing</div>
+    <h1>Sunday, August 16</h1>
+    <div class="when">Jay Todd · Laurinburg · North Myrtle Beach</div>
   </header>
   <main>
     <p class="lead">Overnight was Ukraine plus a NATO shootdown over Romania, Indonesia still digging out, and Hormuz still ugly. At home it’s Indiana floodwater and a Hawaii near-miss.</p>
 
-    <div class="grid two">
-      <article>
-        <div class="tag">Tonight · Laurinburg, NC</div>
-        <div class="wx">
-          <div>
-            <div class="temp">80°</div>
-            <div class="sub">Evening · heat index 85°</div>
-          </div>
-          <div class="sub">Low ~76° · SW 3–5 mph<br>Storms 20% before 9 p.m.</div>
-        </div>
-        <p>Fair at Maxton ~7:52 p.m. Humidity 85%. Heat advisory again Monday.</p>
-      </article>
-      <article>
-        <div class="tag">Tonight · North Myrtle Beach, SC</div>
-        <div class="wx">
-          <div>
-            <div class="temp">78°</div>
-            <div class="sub">Thunder nearby · heat index 80°</div>
-          </div>
-          <div class="sub">Low ~79° · SW 8 mph<br>Storms 30% before 9 p.m.</div>
-        </div>
-        <p>Then partly cloudy. Monday sunny, heat index up to 108°.</p>
-      </article>
+    <div class="sec">Local</div>
+    <div class="grid three">
+      <a class="card" href="https://www.maxpreps.com/nc/laurinburg/scotland-scots/soccer/schedule/">
+        <div class="k">Laurinburg</div>
+        <h2>Scotland soccer: home vs Seventy-First Monday 7 p.m.</h2>
+        <p>Scots lost 2–5 to Union Pines, then beat South View 4–2. Next home is Aug 18.</p>
+        <div class="src">MaxPreps</div>
+      </a>
+      <a class="card" href="https://www.nmb.us/CivicAlerts.aspx?AID=1569">
+        <div class="k">North Myrtle Beach</div>
+        <h2>Phase 2 water line starts before month-end</h2>
+        <p>30-inch main from 27th Ave S toward 32nd. Lane closures through January 2027.</p>
+        <div class="src">City of NMB · Aug 14</div>
+      </a>
+      <a class="card" href="https://www.wmbfnews.com/2026/08/14/jellyfish-stings-rise-across-grand-strand/">
+        <div class="k">Grand Strand</div>
+        <h2>Jellyfish stings up; purple flags out</h2>
+        <p>NMB Beach Patrol: 50+ stings before noon Friday. Moon jellies and sea nettles.</p>
+        <div class="src">WMBF · Aug 14</div>
+      </a>
+      <a class="card" href="https://www.nmb.us/AgendaCenter/ViewFile/Agenda/_08172026-576?html=true">
+        <div class="k">NMB Council</div>
+        <h2>Monday 6 p.m.: Fabbri eval on the consent agenda</h2>
+        <p>City Hall. Also audit, towing rules, single-use bag ordinance. Exec session 5:30.</p>
+        <div class="src">nmb.us agenda · Aug 17</div>
+      </a>
+      <a class="card" href="https://www.seaturtle.org/nestdb/?view=2">
+        <div class="k">NMB beach</div>
+        <h2>Loggerhead nesting season still open</h2>
+        <p>May 1–Oct 31. Night nests and hatchlings. Keep the dune dark and clear.</p>
+        <div class="src">SeaTurtle.org nest database</div>
+      </a>
     </div>
 
-    <div class="grid two" style="margin-top:14px">
-      <article>
-        <div class="tag">US</div>
-        <h2>Lala skirts the Big Island</h2>
-        <p>No landfall. One crash death, roofs gone, flights postponed, outages. Rain continues into Sunday. <span class="sub">AP</span></p>
-      </article>
-      <article>
-        <div class="tag">US</div>
-        <h2>Indiana flooding, federal aid asked</h2>
-        <p>At least 3 dead as of Saturday. White River at Anderson 24.9 ft (record). NWS Indianapolis this morning: major flooding still expected. <span class="sub">NPR</span></p>
-      </article>
-      <article>
-        <div class="tag">US</div>
-        <h2>Grocery photo-op vs the midterms</h2>
-        <p>26 BLS grocery items up 3.4% in 19 months. Cost-of-living net approval −47% in Reuters/Ipsos. <span class="sub">Reuters</span></p>
-      </article>
-      <article>
-        <div class="tag">World</div>
-        <h2>NATO shootdown over Romania</h2>
-        <p>Five killed in overnight Russian strikes. Romania: a Spanish F-18 on NATO duty shot down a drone that came in from Moldova at 05:01 local Sunday. <span class="sub">BBC</span></p>
-      </article>
-      <article>
-        <div class="tag">World</div>
+    <div class="sec">US</div>
+    <div class="grid">
+      <a class="card" href="https://apnews.com/article/hawaii-tropical-storm-lala-hurricane-0c3d63c8a87943cdf8d57c530a7ed9d0">
+        <div class="k">Hawaii</div>
+        <h2>Hurricane Lala skirts the Big Island</h2>
+        <p>No landfall. One crash death, roofs gone, flights postponed, outages. Rain continues into Sunday.</p>
+        <div class="src">AP</div>
+      </a>
+      <a class="card" href="https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths">
+        <div class="k">Midwest</div>
+        <h2>Indiana flooding; White River at Anderson 24.9 ft</h2>
+        <p>Record stage. NPR Sunday: deaths and major flooding still expected. Federal aid requested.</p>
+        <div class="src">NPR · Aug 16</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/us/trumps-2024-grocery-photo-op-now-haunts-republicans-midterms-2026-08-15/">
+        <div class="k">Politics</div>
+        <h2>2024 grocery photo-op vs the midterms</h2>
+        <p>26 BLS grocery items up 3.4% in 19 months. Cost-of-living net approval −47%.</p>
+        <div class="src">Reuters · Aug 15</div>
+      </a>
+    </div>
+
+    <div class="sec">World</div>
+    <div class="grid">
+      <a class="card" href="https://www.bbc.com/news/live/c61k110gny00t">
+        <div class="k">Romania / NATO</div>
+        <h2>Spanish F-18 shoots down a drone from Moldova</h2>
+        <p>05:01 local Sunday. Overnight Russian strikes on Ukraine. BBC live.</p>
+        <div class="src">BBC</div>
+      </a>
+      <a class="card" href="https://www.bbc.com/news/articles/c5y0zz63gero">
+        <div class="k">Indonesia</div>
         <h2>Flores 7.7 quake</h2>
-        <p>51 dead, about 5,000 displaced. Landslides still blocking three regencies. <span class="sub">BBC / AP</span></p>
-      </article>
-      <article>
-        <div class="tag">World</div>
-        <h2>Southern Lebanon</h2>
-        <p>Eleven killed in Israeli strikes. Deadliest day since the June de-escalation. <span class="sub">BBC</span></p>
-      </article>
+        <p>Sunday update: 51 dead, about 5,000 displaced. Landslides still blocking three regencies.</p>
+        <div class="src">BBC / AP</div>
+      </a>
+      <a class="card" href="https://www.bbc.com/news/articles/c4gjygx4gjeo">
+        <div class="k">Lebanon</div>
+        <h2>Eleven killed in Israeli strikes on the south</h2>
+        <p>Deadliest day since the June de-escalation.</p>
+        <div class="src">BBC</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/livecoverage/iran-trump-war-news/card/central-command-says-u-s-has-redirected-62-ships-during-blockade-WGAYLt7Hpx5SVkMUwzC2">
+        <div class="k">Hormuz</div>
+        <h2>CENTCOM: 62 ships redirected, 3 disabled, 2 boarded</h2>
+        <p>As of Aug 14. UAE FM says IRGC hit an ADNOC ship. UKMTO logged a bulk-carrier hull hit; crew safe.</p>
+        <div class="src">WSJ live card</div>
+      </a>
     </div>
 
-    <div class="grid" style="margin-top:14px">
-      <article>
-        <div class="tag">Hormuz / WSJ</div>
-        <h2>Carriers, crews, and 62 ships redirected</h2>
-        <ul>
-          <li>Iran war commander visits USS Abraham Lincoln (WSJ; body locked on the desk).</li>
-          <li>Why long carrier deployments break crews (WSJ).</li>
-          <li>Iranian demands vs Trump’s end-the-war plan (WSJ).</li>
-          <li>CENTCOM as of Aug 14: 62 ships redirected, 3 disabled, 2 boarded. UAE FM says IRGC hit an ADNOC ship. UKMTO logged a bulk-carrier hull hit; crew safe, attacker unknown.</li>
-        </ul>
-      </article>
-      <article>
-        <div class="tag">Tech / markets / strategy</div>
-        <h2>AI sides, IPO math, closed markets</h2>
-        <ul>
-          <li>US preparing to tell 35 partners to pick sides vs China’s AI framework (Reuters).</li>
-          <li>How Claude’s text watermark works (Anthropic). EU AI Act is in force.</li>
-          <li>Anthropic IPO math: sources $190–200B 2028 revenue vs &gt;$47B run rate in May (Reuters).</li>
-          <li>July retail sales −0.6%. Markets closed today. Friday: S&amp;P 7,785.76 (−0.17%), Nasdaq 26,729.16 (−0.28%).</li>
-          <li>Jane Street’s $15B July hit (Reuters via AOL).</li>
-          <li>Nvidia + PE to mobilize &gt;$500B AI compute financing. Huang: residual-value support up to 25%, case by case. MOUs, not closed deals.</li>
-          <li>Silver Lake in talks to take Workday private. No deal yet (Reuters).</li>
-        </ul>
-      </article>
-      <article>
-        <div class="tag">Psychology</div>
+    <div class="sec">Tech · markets · science</div>
+    <div class="grid">
+      <a class="card" href="https://www.reuters.com/world/china/us-tell-partners-they-must-pick-sides-ai-race-with-china-2026-08-14/">
+        <div class="k">AI policy</div>
+        <h2>US to tell 35 partners to pick sides vs China’s AI framework</h2>
+        <p>Draft State letter. Dual membership would mean exclusion from the US group.</p>
+        <div class="src">Reuters · Aug 14</div>
+      </a>
+      <a class="card" href="https://www.anthropic.com/news/claude-text-watermark">
+        <div class="k">Anthropic</div>
+        <h2>How Claude’s text watermark works</h2>
+        <p>On models from Aug 2. SynthID-style. EU AI Act is in force.</p>
+        <div class="src">Anthropic</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/">
+        <div class="k">Anthropic IPO</div>
+        <h2>IPO math: $190–200B 2028 revenue</h2>
+        <p>Sources vs &gt;$47B run rate in May. Confidential US IPO file in June.</p>
+        <div class="src">Reuters · Aug 15</div>
+      </a>
+      <a class="card" href="https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital">
+        <div class="k">Nvidia</div>
+        <h2>PE partners to mobilize &gt;$500B AI compute financing</h2>
+        <p>MOUs, not closed deals. Residual-value support up to 25%, case by case.</p>
+        <div class="src">Nvidia newsroom · Aug 10</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/silver-lake-talks-buy-workday-sources-say-2026-08-13/">
+        <div class="k">Deals</div>
+        <h2>Silver Lake in talks to take Workday private</h2>
+        <p>No deal yet.</p>
+        <div class="src">Reuters · Aug 13</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/business/finance/jane-street-took-15-billion-hit-july-tied-situational-awareness-sources-say-2026-08-14/">
+        <div class="k">Markets</div>
+        <h2>Jane Street’s $15B July hit</h2>
+        <p>Tied to Situational Awareness and the AI unwind. First down month since 2016.</p>
+        <div class="src">Reuters · Aug 14</div>
+      </a>
+      <a class="card" href="https://www.nature.com/articles/s41467-026-76671-5">
+        <div class="k">Science</div>
         <h2>Confidence drops precede OCD symptoms</h2>
         <p>Nature Communications, 13 Aug. Lower confidence predicted symptoms in the next 1–4 hours, not the reverse.</p>
-      </article>
+        <div class="src">Nature Communications</div>
+      </a>
     </div>
-
-    <footer>From Chief’s Sunday briefing mailed to Jay 16 Aug 2026 8:44 a.m. ET, plus tonight’s NWS for Laurinburg and North Myrtle Beach.</footer>
+    <footer>Cards only. Every headline is a publisher link. Sunday 16 Aug 2026 from Chief’s briefing.</footer>
   </main>
 </body>
 </html>
