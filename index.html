@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Briefing · Thursday, August 20</title>
+  <title>Briefing · Friday, August 21</title>
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0e1013">
   <style>
@@ -21,6 +21,7 @@
     main { max-width: 980px; margin: 0 auto; padding: 16px 14px 40px; }
     .lead { font-size: 18px; margin: 4px 0 16px; color: var(--lead); }
     .sec { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); margin: 18px 2px 8px; }
+    .quiet { font-size: 14px; color: var(--mute); margin: 0 2px 8px; }
     .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
     @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } .grid.three { grid-template-columns: 1fr 1fr 1fr; } }
     a.card {
@@ -39,197 +40,203 @@
 <body>
   <header>
     <div class="brand">Daily briefing</div>
-    <h1>Thursday, August 20</h1>
+    <h1>Friday, August 21</h1>
     <div class="when">Jay Todd · Laurinburg · North Myrtle Beach</div>
   </header>
   <main>
-    <p class="lead">Trump posted an “economic D-Day” on Iran and anyone giving it a lifeline. Canada’s 50% tariffs are paused until Saturday; terms still unsigned. Kyiv: at least 13 dead overnight. OpenAI paused frontier RL after Astra cyber tests. Scots open tonight in Asheboro, 8 p.m.</p>
+    <p class="lead">Canada’s 50% tariff clock is 12:01 a.m. Saturday. Kyiv: at least 16 dead overnight. Trump rallies in Myrtle Beach tonight. Grok Build left SuperGrok-only. llama.cpp shipped a Vulkan FA fix for the Strix Halo class.</p>
 
     <div class="sec">Local · past 48 hours</div>
     <div class="grid">
-      <a class="card" href="https://laurinburgexchange.com/sports/402113/scots-season-opener-moved-up-to-thursday">
-        <div class="k">Scotland football</div>
-        <h2>Scots opener moved to tonight, 8 p.m. in Asheboro</h2>
-        <p>Storms. No JV game. Season opener pulled forward to Thursday night.</p>
-        <div class="src">Laurinburg Exchange · Aug 19</div>
+      <a class="card" href="https://www.wmbfnews.com/2026/08/20/myrtle-beach-calls-trump-rally-security-highest-operation-ever-city-preps-heat-crowds/">
+        <div class="k">Grand Strand</div>
+        <h2>Trump rally tonight in Myrtle Beach; city calls it its highest security op</h2>
+        <p>Convention Center, 7 p.m., for Sen. Darline Graham. Doors 3 p.m. Heat and road closures. Hits NMB traffic.</p>
+        <div class="src">WMBF · Aug 20</div>
+      </a>
+      <a class="card" href="https://www.wmbfnews.com/2026/08/20/what-know-about-road-closures-ahead-trumps-myrtle-beach-rally/">
+        <div class="k">Myrtle Beach</div>
+        <h2>Road closures for the rally</h2>
+        <p>WMBF’s closure list. Leave early or avoid the convention-center grid.</p>
+        <div class="src">WMBF · Aug 20</div>
       </a>
       <a class="card" href="https://wpde.com/news/local/laurinburg-bridge-to-be-named-for-late-police-chief-robert-l-malloy">
         <div class="k">Laurinburg</div>
-        <h2>Bridge named for Chief Robert L. Malloy</h2>
-        <p>Board of Transportation, unanimous Wednesday. U.S. 74/501 over Main Street. First Black police chief; died 2024.</p>
+        <h2>Bridge to be named for Chief Robert L. Malloy</h2>
+        <p>Still inside 48 hours. WPDE Wednesday.</p>
         <div class="src">WPDE · Aug 19</div>
-      </a>
-      <a class="card" href="https://laurinburgexchange.com/news/402111/scots-improve-to-2-1-despite-lackluster-performance">
-        <div class="k">Scotland soccer</div>
-        <h2>Scots 1–0 over Seventy-First; now 2–1</h2>
-        <p>Best start since 2022. Coach White: too many mistakes. Road rematch at South View Wednesday.</p>
-        <div class="src">Laurinburg Exchange · Aug 19</div>
-      </a>
-      <a class="card" href="https://wpde.com/news/local/nmb-approves-first-reading-to-eliminate-225-mil-bags-from-being-considered-reusable-spokesperson-carryout-solid-waste-authority-08182026">
-        <div class="k">North Myrtle Beach</div>
-        <h2>First reading: 2.25 mil bags no longer “reusable”</h2>
-        <p>Council Monday. Closes the loophole in the plastic-bag rule. Second reading still required.</p>
-        <div class="src">WPDE · Aug 18</div>
-      </a>
-      <a class="card" href="https://wpde.com/news/local/scotland-county-opens-cooling-stations-as-extreme-heat-continues-air-conditioning-centers-summer-risk">
-        <div class="k">Scotland County</div>
-        <h2>Cooling stations open in the heat</h2>
-        <p>Six sites, including I. Ellis Johnson, the library, and HHS. Free A/C while the heat holds.</p>
-        <div class="src">WPDE · Aug 18</div>
-      </a>
-      <a class="card" href="https://laurinburgexchange.com/news/402115/lady-scots-hold-off-fairmont-in-five-set-thriller">
-        <div class="k">Scotland volleyball</div>
-        <h2>Lady Scots hold off Fairmont, 3–2</h2>
-        <p>First win. Dropped sets 3 and 4, then 15–9 in the fifth. St. Pauls at home Wednesday 6 p.m.</p>
-        <div class="src">Laurinburg Exchange · Aug 19</div>
       </a>
     </div>
 
     <div class="sec">US</div>
     <div class="grid">
-      <a class="card" href="https://www.bbc.com/news/articles/c2k7e83ynj4o">
-        <div class="k">Iran</div>
-        <h2>Trump vows a “crushing economic operation”</h2>
-        <p>Truth Social: “economic D-Day.” Any country giving Iran a lifeline faces “tremendous” consequences. No named targets besides Iran. UAE already cut financial ties.</p>
-        <div class="src">BBC · Aug 20</div>
-      </a>
       <a class="card" href="https://apnews.com/article/trump-canada-tariffs-usmca-be3fb41e167108aed07059bb58de7b28">
         <div class="k">Trade</div>
-        <h2>Canada 50% tariffs paused until Saturday</h2>
-        <p>About $20 billion. Trump says a deal; Carney says work remains. Next clock: 12:01 a.m. Saturday.</p>
+        <h2>Canada 50% tariffs still paused until 12:01 a.m. Saturday</h2>
+        <p>No Friday morning “deal signed” story found. AP: terms still vague. Clock is tonight.</p>
         <div class="src">AP · Aug 19</div>
       </a>
-      <a class="card" href="https://apnews.com/article/hurricane-lala-tropical-weather-94388afddd817481b513d9d1fbe8662b">
-        <div class="k">Hawaii</div>
-        <h2>Lala: two dead; another system possible this weekend</h2>
-        <p>May Doi, 93, and a man in his 60s. NHC: a new cyclone could form southeast of the islands. Lala itself is Cat 3 well west.</p>
-        <div class="src">AP · Aug 19</div>
-      </a>
-      <a class="card" href="https://apnews.com/article/korea-us-military-drills-313e01e4ee305b4c9b1b8bf12643fb17">
-        <div class="k">Korea</div>
-        <h2>U.S.–South Korea drills cut short; North shrugs</h2>
-        <p>Exercises end Friday instead of Aug. 27. Pyongyang, via AP: it does not care.</p>
-        <div class="src">AP · Aug 19</div>
+      <a class="card" href="https://www.bbc.com/news/articles/c2k7e83ynj4o">
+        <div class="k">Iran</div>
+        <h2>Trump’s “crushing economic operation” on Iran</h2>
+        <p>BBC Thursday. Still the live US–Iran economic threat.</p>
+        <div class="src">BBC · Aug 20</div>
       </a>
     </div>
 
     <div class="sec">World</div>
     <div class="grid">
-      <a class="card" href="https://www.bbc.com/news/articles/c98vzmden5yo">
+      <a class="card" href="https://apnews.com/article/russia-ukraine-war-kyiv-attack-92ff5d7d1073fd8692a75e4e677f425b">
         <div class="k">Ukraine</div>
-        <h2>Kyiv strike: at least 13 killed, 40 injured</h2>
-        <p>168 drones and 44 missiles overnight. Air-defence missile shortage is the constraint Zelensky named. Children’s hospital and a school damaged.</p>
-        <div class="src">BBC · Aug 20</div>
+        <h2>Kyiv region: at least 16 killed in overnight barrage</h2>
+        <p>AP Thursday: 15 in the capital, one in the region, about 40 wounded. Patriot shortage. New chapter vs Wednesday’s 13.</p>
+        <div class="src">AP · Aug 20</div>
       </a>
-      <a class="card" href="https://apnews.com/article/indonesia-earthquake-landslides-flores-businesses-reopen-8cdec4fe5834d8379893179f73d20d47">
-        <div class="k">Indonesia</div>
-        <h2>Flores: shops reopen; death toll at least 71</h2>
-        <p>Groceries and gas stations back Wednesday. 11,925 homes damaged. Nearly 1,200 injured.</p>
-        <div class="src">AP · Aug 19</div>
-      </a>
-    </div>
-
-    <div class="sec">Tech / AI</div>
-    <div class="grid">
-      <a class="card" href="https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303">
-        <div class="k">OpenAI</div>
-        <h2>Safety monitoring adds ~20% compute overhead</h2>
-        <p>The Register on Tuesday’s post: chain-of-thought monitors on Sol-and-above tool work, and all Astra inference. Company says it will not pass the cost to customers.</p>
-        <div class="src">The Register · Aug 19</div>
-      </a>
-      <a class="card" href="https://openai.com/index/pacing-model-development-cyber-capabilities/">
-        <div class="k">OpenAI</div>
-        <h2>Paused frontier RL after cyber-capability tests</h2>
-        <p>First-party: Hugging Face incident plus Astra may meet Critical cyber. Largest planned RL run still on hold.</p>
-        <div class="src">OpenAI · Aug 18</div>
+      <a class="card" href="https://apnews.com/article/china-evergrande-founder-real-estate-fraud-5573868904b3ced0c5c9b0314c56ae5a">
+        <div class="k">China</div>
+        <h2>Evergrande founder Hui Ka Yan gets life</h2>
+        <p>Shenzhen court Thursday. Group defaulted on more than $300 billion. Fines on the group in the billions of yuan.</p>
+        <div class="src">AP · Aug 20</div>
       </a>
     </div>
 
-    <div class="sec">Frontier models and hardware</div>
+    <div class="sec">Grok / Cursor / xAI</div>
     <div class="grid">
-      <a class="card" href="https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/">
-        <div class="k">Astra</div>
-        <h2>Astra was not the Hugging Face exploit model</h2>
-        <p>First-party follow-up: they still cannot rule out Critical cyber for Astra. Sandboxing and isolation tightened. This is OpenAI’s claim, not a third-party SOTA table.</p>
-        <div class="src">OpenAI</div>
+      <a class="card" href="https://x.ai/news/grok-build-for-everyone">
+        <div class="k">xAI</div>
+        <h2>Grok Build now on every plan, web and mobile</h2>
+        <p>First-party Aug 19. Left SuperGrok Heavy beta. Publish to grok.me, X cards, GitHub export. Not a new Grok model number.</p>
+        <div class="src">x.ai · Aug 19</div>
+      </a>
+      <a class="card" href="https://cursor.com/changelog/08-19-26">
+        <div class="k">Cursor</div>
+        <h2>Cloud agents: subscriptions, isolated subagents, /goal</h2>
+        <p>First-party changelog. PR/Slack wake-ups. Follow-ups wait for the next tool call.</p>
+        <div class="src">Cursor · Aug 19</div>
+      </a>
+      <a class="card" href="https://x.ai/news/grok-4-6-amazon-bedrock">
+        <div class="k">xAI</div>
+        <h2>Grok 4.6 GA on Amazon Bedrock</h2>
+        <p>Channel GA of the Aug 12 model. 500k context. Not a new ship.</p>
+        <div class="src">x.ai · Aug 19</div>
       </a>
     </div>
+
+    <div class="sec">AI on X · last 48 hours</div>
+    <div class="grid three">
+      <a class="card" href="https://x.com/SpaceXAI/status/2090096322858660260">
+        <div class="k">@SpaceXAI</div>
+        <h2>Grok 4.6 on Bedrock</h2>
+        <p>Official xAI account (x.com/xai redirects here). Aug 19.</p>
+        <div class="src">X · Aug 19</div>
+      </a>
+      <a class="card" href="https://x.com/cursor_ai/status/2090136956101414982">
+        <div class="k">@cursor_ai</div>
+        <h2>Cursor cloud-agent ship note</h2>
+        <p>Official Aug 19 post. Pair with the changelog card.</p>
+        <div class="src">X · Aug 19</div>
+      </a>
+      <a class="card" href="https://x.com/OpenAI/status/2090165329867743501">
+        <div class="k">@OpenAI</div>
+        <h2>Zero data retention for frontier models</h2>
+        <p>Official Aug 19. sama and gdb quoted it the same day.</p>
+        <div class="src">X · Aug 19</div>
+      </a>
+      <a class="card" href="https://x.com/gdb/status/2090449916456009972">
+        <div class="k">@gdb</div>
+        <h2>QT on Codex browser / computer use</h2>
+        <p>~18 hours ago. First-party researcher, not a bookmark dump.</p>
+        <div class="src">X · Aug 20</div>
+      </a>
+    </div>
+    <p class="quiet">Bookmarks: All / Claude / Local AI had nothing in the last 48 hours (newest All save is Aug 14). No folder dump.</p>
 
     <div class="sec">AI agents at work</div>
     <div class="grid">
-      <a class="card" href="https://www.uipath.com/newsroom/uipath-launches-maestro-flow">
-        <div class="k">Coding desks</div>
-        <h2>UiPath Maestro Flow: coding agents into production flows</h2>
-        <p>First-party Wednesday. Claude Code, Cursor, Copilot, Codex design and run a process as one artifact, with enterprise orchestration. Vendor launch, not a customer case study.</p>
-        <div class="src">UiPath · Aug 19</div>
+      <a class="card" href="https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate">
+        <div class="k">monday.com</div>
+        <h2>monday rebuilt around human–agent teams; 5 million interactions</h2>
+        <p>First-party on Anthropic’s blog, Aug 20. CPT O Daniel Lereya. CoS-style operator agents. Cooke seafood named as a customer. Not a listicle.</p>
+        <div class="src">claude.com · Aug 20</div>
+      </a>
+      <a class="card" href="https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams">
+        <div class="k">Slack</div>
+        <h2>Slack CPO: Monday agent briefings, public channels as memory</h2>
+        <p>Jaime DeLanghe, Aug 19. Company-OS case. Claude Tag CI on-call is Aug 18 — outside this morning’s 48h cut.</p>
+        <div class="src">claude.com · Aug 19</div>
+      </a>
+    </div>
+
+    <div class="sec">Frontier models</div>
+    <p class="quiet">Quiet. No new frontier model number from xAI, Anthropic, OpenAI, DeepMind, Meta, or Mistral since Wednesday. Bedrock and ZDR are availability/policy, not ships.</p>
+    <div class="grid">
+      <a class="card" href="https://openai.com/index/offering-zero-data-retention-for-frontier-models/">
+        <div class="k">OpenAI</div>
+        <h2>Zero data retention kept for frontier models</h2>
+        <p>First-party Aug 19. Policy, not a model drop. Cross-check: not a SOTA claim.</p>
+        <div class="src">OpenAI · Aug 19</div>
+      </a>
+    </div>
+
+    <div class="sec">Local LLM / TeamLLM class</div>
+    <div class="grid">
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/25494">
+        <div class="k">llama.cpp</div>
+        <h2>Vulkan FA: dequant q8_0 KV once (coopmat1)</h2>
+        <p>Merged Aug 19. Author benches on RADV GFX1151 / Ryzen AI Max+ 395 — same SoC as the EVO-X2. ~1.4–1.7× pp512 at 32k–64k. Intel iGPU mixed; AMD UMA is the claimed win.</p>
+        <div class="src">GitHub · Aug 19</div>
+      </a>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b10539">
+        <div class="k">llama.cpp</div>
+        <h2>b10539: Vulkan FA MMQ uses fp32 for Q</h2>
+        <p>Published Aug 21 03:04 UTC (Thu 11:04 p.m. ET). Follow-on to the FA path. Nightly tag, not a new model.</p>
+        <div class="src">GitHub · Aug 21</div>
       </a>
     </div>
 
     <div class="sec">Investments / Finance</div>
     <div class="grid">
-      <a class="card" href="https://apnews.com/article/stocks-futures-bonds-oil-inflation-trump-ai-9e355be634e4a21059fc1d1f20a1239e">
+      <a class="card" href="https://apnews.com/article/stocks-markets-powell-tariffs-trump-30c411cd18bf6a43cb787ac838b897f6">
         <div class="k">Markets</div>
-        <h2>Stocks rose after Treasury doubled longer-term buybacks</h2>
-        <p>Wednesday wrap. Purchases of 10- to 30-year notes at least $4B per operation, Sept. 9–Nov. 4. Yields came off.</p>
-        <div class="src">AP · Aug 19</div>
+        <h2>Fifth straight loss; Walmart −4.5%; Powell speaks today</h2>
+        <p>AP Thursday close. S&amp;P −0.4% to 6,370.17. 10-year 4.32%. Jackson Hole is today.</p>
+        <div class="src">AP · Aug 20</div>
       </a>
     </div>
 
     <div class="sec">Business strategy</div>
     <div class="grid">
+      <a class="card" href="https://apnews.com/article/walmart-quarter-earnings-inflation-tariffs-955945e03ffcc111389d62fa3103a051">
+        <div class="k">Retail</div>
+        <h2>Walmart spring profit missed; raised full-year outlook</h2>
+        <p>AP earnings. Street was rich after a 13.5% YTD run. Tariff caution in the tape.</p>
+        <div class="src">AP</div>
+      </a>
       <a class="card" href="https://apnews.com/article/trump-canada-tariffs-usmca-be3fb41e167108aed07059bb58de7b28">
         <div class="k">Trade</div>
-        <h2>U.S.–Canada “deal” is still unsigned</h2>
-        <p>Three-day pause. Trump calls it a deal; Ottawa has not published what it gets. Saturday morning is the next clock.</p>
+        <h2>U.S.–Canada “deal” still unsigned tonight</h2>
+        <p>Strategy read of the same AP: three-day pause ends 12:01 a.m. Saturday.</p>
         <div class="src">AP · Aug 19</div>
       </a>
     </div>
 
     <div class="sec">Psychology</div>
-    <div class="grid three">
-      <a class="card" href="https://www.psychologytoday.com/us/blog/feeling-it/202608/yes-breathwork-works-especially-for-trauma">
+    <div class="grid">
+      <a class="card" href="https://www.psychologytoday.com/us/blog/body-meet-mind/202608/when-nobody-has-to-show-up-how-do-we-find-social-connection">
         <div class="k">Psychology Today</div>
-        <h2>Breathwork helped the teens with the most trauma</h2>
-        <p>UCLA RCT, 174 girls. SKY Schools raised social connectedness only among those with 4+ ACEs. Chabin et al., J. Research on Adolescence 2026.</p>
-        <div class="src">Psychology Today · Aug 18</div>
-      </a>
-      <a class="card" href="https://www.psychologytoday.com/us/blog/looking-inward-for-a-healthier-society/202608/meditation-is-having-its-gallup-moment">
-        <div class="k">Psychology Today</div>
-        <h2>Meditation is getting a Gallup World Poll slot</h2>
-        <p>First global dataset tying practice to well-being. First findings due World Meditation Day, December 2026.</p>
-        <div class="src">Psychology Today · Aug 19</div>
+        <h2>U.S. interviews: connection without obligation</h2>
+        <p>Aug 20 research write-up. 39 U.S. interviews; “moral duty” never coded. Loneliness as invisibility.</p>
+        <div class="src">Psychology Today · Aug 20</div>
       </a>
       <a class="card" href="https://www.psychologytoday.com/us/blog/virtue-in-the-media-world/202608/the-quiet-destruction-of-curiosity-by-ai-assistants">
         <div class="k">Psychology Today</div>
         <h2>AI assistants and the quiet destruction of curiosity</h2>
-        <p>Standing PT source. Aug 19 column on how assistants flatten the ask.</p>
+        <p>Standing PT source. Aug 19. Still in window.</p>
         <div class="src">Psychology Today · Aug 19</div>
       </a>
     </div>
 
-    <div class="sec">AI on X</div>
-    <div class="grid three">
-      <a class="card" href="https://x.com/sama/status/2089787807611195475">
-        <div class="k">@sama</div>
-        <h2>Paused some frontier RL training</h2>
-        <p>Altman: capabilities were outstripping the pace of safety and alignment. Cross-check: OpenAI blog same day.</p>
-        <div class="src">X · Tue 11:43 a.m. ET</div>
-      </a>
-      <a class="card" href="https://x.com/sama/status/2089805495783813196">
-        <div class="k">@sama</div>
-        <h2>“We still expect to ship great new models soon”</h2>
-        <p>Follow-up: the pause hits further-out releases, not the next ship.</p>
-        <div class="src">X · Tue</div>
-      </a>
-      <a class="card" href="https://x.com/merettm/status/2089776131255783823">
-        <div class="k">@merettm</div>
-        <h2>Largest planned frontier RL run remains on hold</h2>
-        <p>Jakub Pachocki: smaller runs continue so they can test safeguards. Confidence in safety will set the pace.</p>
-        <div class="src">X · Tue</div>
-      </a>
-    </div>
-
-    <footer>Cards open the publisher. No paywalled stories except WSJ. Official X API still not enrolled; posts verified via fxtwitter.</footer>
+    <footer>Cards tap through to the publisher. No invented headlines. Dark mode locked. Bookmarks used for taste, not dumped.</footer>
   </main>
 </body>
 </html>
