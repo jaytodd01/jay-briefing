@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Briefing · Monday, August 31</title>
+  <title>Briefing · Tuesday, September 1</title>
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0e1013">
   <style>
@@ -40,40 +40,40 @@
 <body>
   <header>
     <div class="brand">Daily briefing</div>
-    <h1>Monday, August 31</h1>
+    <h1>Tuesday, September 1</h1>
     <div class="when">Jay Todd · Laurinburg · North Myrtle Beach</div>
   </header>
   <main>
-    <p class="lead">US–Iran trade strikes at Hormuz (Larak). Nepal toll past 900 / 4,000+ missing. OpenAI Cursor cutoff still the lead; Grok Bot now works with X. Markets: oil &gt;$90, hike bets up after Warsh.</p>
+    <p class="lead">Nepal toll 987 / 3,916 missing. Oil and yields up as a tanker is hit leaving Hormuz. OpenAI Cursor cutoff still the lead. llama.cpp shipped Qwen rollback overnight.</p>
 
     <div class="sec">Grok / Cursor / xAI</div>
     <div class="grid">
       <a class="card" href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/">
         <div class="k">OpenAI · Cursor</div>
         <h2>OpenAI ends Cursor model access Nov 12 after SpaceX close</h2>
-        <p>First-party Aug 28. Change-of-control window. “Cannot be confident SpaceX will use our technology within our terms.” Max contract notice.</p>
+        <p>First-party Aug 28. Change-of-control window. Cursor changelog still Aug 27 (start-from-scratch). No newer xAI/Cursor ship overnight.</p>
         <div class="src">openai.com · Aug 28</div>
       </a>
       <a class="card" href="https://x.ai/news/grok-bot-and-x">
         <div class="k">xAI · Grok Bot</div>
         <h2>Grok Bot now works with X (connect + free API credits)</h2>
-        <p>First-party Aug 29 ship. Connect X in Grok Bot; SpaceXAI can mint a dev account; paid users get free X API credits. First version — search posts, timeline, mentions.</p>
+        <p>First-party Aug 29 ship. Connect X in Grok Bot; SpaceXAI can mint a dev account; paid users get free X API credits. First version.</p>
         <div class="src">x.ai/news · Aug 29</div>
       </a>
     </div>
 
     <div class="sec">Local LLM / TeamLLM</div>
     <div class="grid">
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/26501">
-        <div class="k">llama.cpp #26501</div>
-        <h2>Hexagon multi-NPU + fully async backend (IQ9 / IQ10)</h2>
-        <p>Merged Aug 27. Qualcomm Hexagon multi-NPU tensor-split and async graph compute. Follow-up #27785 still stands. Not the AMD Vulkan path.</p>
-        <div class="src">ggml-org/llama.cpp · Aug 27</div>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/28123">
+        <div class="k">llama.cpp #28123</div>
+        <h2>Qwen4exp recurrent-state rollback (MTP actually helps)</h2>
+        <p>Merged Sep 1 into b10731. Qwen3.8-Flash-Next can roll back convolution+SSM state so MTP drafts stay on-device. Hexagon #26501 still stands; this is the overnight Qwen ship.</p>
+        <div class="src">ggml-org/llama.cpp · Sep 1</div>
       </a>
     </div>
 
     <div class="sec">Frontier models</div>
-    <p class="quiet">quiet — no newer first-party model number Sun–Mon from xAI / Anthropic / OpenAI / DeepMind / Meta / Mistral. Astra leaks are not a ship.</p>
+    <p class="quiet">quiet — no newer first-party model number Mon–Tue from xAI / Anthropic / OpenAI / DeepMind / Meta / Mistral. Anthropic Aug 31 is alignment/security, not a ship.</p>
 
     <div class="sec">AI agents at work</div>
     <div class="grid">
@@ -86,69 +86,63 @@
     </div>
 
     <div class="sec">AI on X</div>
-    <p class="quiet">quiet — no first-party lab status in the last 48 hours.</p>
+    <p class="quiet">quiet — no first-party lab status in the last 48 hours. Bookmarks skim in flight; newest saves were still Aug 26–27 as of Monday.</p>
 
     <div class="sec">US</div>
     <div class="grid">
       <a class="card" href="https://www.bbc.com/news/articles/cx2z72x5z1po">
         <div class="k">US–Iran</div>
         <h2>US hits Larak launchers; Iran strikes Jordan bases</h2>
-        <p>First known US strike on Iran since late July. Centcom: minelaying threat in Hormuz. IRGC: Jordan King Hussein + al-Azraq; Jordan intercepted eight missiles Mon AM. Oil spike driver.</p>
+        <p>First known US strike on Iran since late July. Centcom: minelaying threat in Hormuz. IRGC hit King Hussein + al-Azraq. Backdrop to Tuesday tanker hit.</p>
         <div class="src">BBC · Aug 30–31</div>
       </a>
-      <a class="card" href="https://www.abc.net.au/news/2026-08-30/us-president-donald-trump-venezuela-oil-deal-delcy-rodriguez/107094966">
-        <div class="k">Energy</div>
-        <h2>Rodriguez: 25-year deal, 1.5M bpd target; US 55% offtake</h2>
-        <p>Saturday address after Trump Fri post. 17 fields, $209B revenue claim at $65; sovereignty language. Production lift is years, not Labor Day gas.</p>
-        <div class="src">ABC / wires · Aug 30</div>
+      <a class="card" href="https://www.cbsnews.com/news/judge-temporarily-blocks-new-postal-service-rules-for-mail-voting-trump/">
+        <div class="k">Elections</div>
+        <h2>Talwani 14-day mail TRO; hearing Sept 3</h2>
+        <p>Thursday TRO after SCOTUS lift. Blocks USPS ballot-envelope/portal rule for Nov midterms. PI hearing tomorrow.</p>
+        <div class="src">CBS News · Aug 27–28</div>
       </a>
       <a class="card" href="https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm">
         <div class="k">Fed</div>
         <h2>Warsh: inflation still 3.7% PCE; “we have work to do”</h2>
-        <p>Jackson Hole Friday. Hawkish hold into Monday. FOMC Sept 15–16.</p>
+        <p>Jackson Hole Friday. JOLTS today, payrolls Friday, FOMC Sept 15–16. Hawkish hold into September open.</p>
         <div class="src">Federal Reserve · Aug 28</div>
-      </a>
-      <a class="card" href="https://www.reuters.com/world/judge-blocks-rule-implementing-trump-plan-restrict-mail-in-voting-2026-08-28/">
-        <div class="k">Elections</div>
-        <h2>Talwani 14-day mail TRO; hearing Sept 3</h2>
-        <p>Thursday TRO after SCOTUS Monday lift. Blocks USPS ballot-envelope/portal rule for Nov midterms. DOJ expected to keep appealing.</p>
-        <div class="src">Reuters · Aug 28</div>
       </a>
     </div>
 
     <div class="sec">World</div>
     <div class="grid">
-      <a class="card" href="https://www.france24.com/en/asia-pacific/20260831-nepal-buries-victims-of-himalayan-flooding-as-death-toll-climbs-past-900">
+      <a class="card" href="https://apnews.com/article/nepal-flash-floods-death-toll-tibet-china-835459b2978adcd2b3bcf6e0595aee6c">
         <div class="k">Nepal–Tibet</div>
-        <h2>Death toll past 900; 4,247 missing in Nepal alone</h2>
-        <p>Monday AFP/AP. Nepal 903 dead / 4,247 missing (592 foreigners); Tibet 16 / 546 as of Sunday. Mass burials; hydropower tunnel drills.</p>
-        <div class="src">France 24 / AFP · Aug 31</div>
+        <h2>987 dead in Nepal, 3,916 missing; Himalayan toll past 1,000</h2>
+        <p>Tuesday AP. Nepal 987 / 3,916 missing (583 foreigners); Tibet 16 / 546 as of Sunday. ~900 hydropower workers missing; ~500 believed in tunnels.</p>
+        <div class="src">AP · Sep 1</div>
       </a>
-      <a class="card" href="https://www.aa.com.tr/en/americas/iran-says-hormuz-transit-understanding-with-oman-contingent-on-us-fulfilling-commitments/4041221">
+      <a class="card" href="https://www.aa.com.tr/en/us-israel-iran-war/3-projectiles-struck-tanker-exiting-strait-of-hormuz-off-oman-uk-maritime-agency/4043167">
         <div class="k">Hormuz</div>
-        <h2>Iran–Oman transit understanding still contingent on US</h2>
-        <p>Sat Deputy FM Gharibabadi: understanding exists; will not auto-implement until Washington meets commitments. Strait remains closed. Backdrop to Larak strikes.</p>
-        <div class="src">Anadolu · Aug 30</div>
+        <h2>UKMTO: tanker hit by 3 projectiles east of Khasab</h2>
+        <p>Tuesday. Outbound Strait of Hormuz, 17 nm east of Oman’s Khasab. No casualties or spill reported. Follows Sunday Larak exchange.</p>
+        <div class="src">Anadolu · Sep 1</div>
       </a>
     </div>
 
     <div class="sec">Tech / AI</div>
     <div class="grid">
-      <a class="card" href="https://www.reuters.com/business/media-telecom/openai-end-partnership-with-spacexs-cursor-2026-08-29/">
-        <div class="k">OpenAI · Anthropic</div>
-        <h2>Reuters: Anthropic to add Claude compute in Cursor; Musk shrugs</h2>
-        <p>Saturday wire on Friday cutoff. Tom Brown: trusted partner since Sonnet 3.5. Truell: OpenAI ~5% of Cursor traffic, still talking.</p>
-        <div class="src">Reuters · Aug 29</div>
+      <a class="card" href="https://www.anthropic.com/news/improving-alignment-security-efforts">
+        <div class="k">Anthropic</div>
+        <h2>After July eval escapes: pause, harden sandboxes, METR review</h2>
+        <p>First-party Aug 31. July 30 + UK AISI incidents. Real-time escape classifier, isolated high-risk cyber sandboxes, asked partners to seal evals. Not a new model.</p>
+        <div class="src">anthropic.com/news · Aug 31</div>
       </a>
     </div>
 
     <div class="sec">Investments / Finance</div>
     <div class="grid">
-      <a class="card" href="https://www.reuters.com/world/china/global-markets-global-markets-2026-08-31/">
+      <a class="card" href="https://www.reuters.com/business/wall-st-futures-kick-off-september-under-pressure-yields-oil-prices-rise-2026-09-01/">
         <div class="k">Markets</div>
-        <h2>Oil &gt;$90 on Larak; stocks cautious, hike bets lift</h2>
-        <p>Monday Reuters. Brent jump after US–Iran exchange; Warsh hangover. Global equities soft into month-end; 2y yields elevated.</p>
-        <div class="src">Reuters · Aug 31</div>
+        <h2>Sept open: futures down, Brent ~$91, 10y 4.78%</h2>
+        <p>Tuesday 4:46 a.m. ET: Dow/S&amp;P e-minis −0.48%, Nasdaq −0.83%. JOLTS today, payrolls Friday. Warsh hangover + Hormuz oil.</p>
+        <div class="src">Reuters · Sep 1</div>
       </a>
     </div>
 
@@ -157,39 +151,39 @@
       <a class="card" href="https://www.reuters.com/business/energy/venezuelas-interim-president-says-us-energy-deal-will-last-25-years-2026-08-30/">
         <div class="k">Venezuela capacity</div>
         <h2>Rodriguez: 25-year deal, 1.5M bpd target, $209B revenue claim</h2>
-        <p>Saturday night address. 17 fields; sovereignty language. Chevron among firms expected; infrastructure rebuild is multi-year.</p>
+        <p>Saturday night address. 17 fields; sovereignty language. Chevron among firms expected; rebuild is multi-year, not Labor Day gas.</p>
         <div class="src">Reuters · Aug 29–30</div>
       </a>
     </div>
 
     <div class="sec">Psychology</div>
     <div class="grid">
-      <a class="card" href="https://www.psychologytoday.com/us/blog/our-invisible-work/202608/trading-summer-for-structure">
+      <a class="card" href="https://www.psychologytoday.com/us/blog/rethinking-rivalry-competition-and-collaboration/202608/september-and-the-second-shift">
         <div class="k">Psychology Today</div>
-        <h2>Trading summer for structure</h2>
-        <p>Wells &amp; MacAulay on the emotional tax of fall routines (students, teachers, parents, workplaces). Standing PT card; Aug 30.</p>
+        <h2>September and the second shift</h2>
+        <p>Duarte on back-to-school cognitive load: mothers still ~71% of household thinking work. School/work mismatch, not a personal-organization failure.</p>
         <div class="src">Psychology Today · Aug 30</div>
       </a>
     </div>
 
     <div class="sec">Local · past 48 hours</div>
     <div class="grid">
-      <a class="card" href="https://www.wmbfnews.com/2026/08/29/1-dead-after-laurinburg-bar-shooting/">
+      <a class="card" href="https://www.wfxb.com/2026/08/31/laurinburg-police-ask-for-help-locating-man-wanted-for-murder/">
         <div class="k">Laurinburg</div>
-        <h2>1 dead at Xplicit Sports Bar; Robinson wanted, armed</h2>
-        <p>Sat ~12:47 a.m. Ricky Swindell, 46, shot in chest; died at Scotland Memorial. Michael Robinson Jr. of Wagram wanted on 1st-degree murder and firearms charges.</p>
-        <div class="src">WMBF · Aug 29</div>
+        <h2>Robinson still wanted in Xplicit shooting; $1,000 reward</h2>
+        <p>Monday update. Ricky Swindell, 46, killed Sat at Xplicit on McColl Rd. Michael Robinson Jr. of Wagram wanted on 1st-degree murder; armed/dangerous.</p>
+        <div class="src">WFXB · Aug 31</div>
       </a>
       <a class="card" href="https://www.areadevelopment.com/newsItems/8-30-2026/great-southern-wood-nc-scotland-county-north-carolina.shtml">
         <div class="k">Scotland County</div>
         <h2>Great Southern Wood: $40M treated-lumber plant at Laurinburg-Maxton</h2>
-        <p>Aug 30 announce. 43 jobs; OneNC $200k performance grant; rail partners. Fresh local economy card.</p>
+        <p>Aug 30 announce. 43 jobs; OneNC $200k performance grant; rail partners. Still inside the 48-hour local window.</p>
         <div class="src">Area Development · Aug 30</div>
       </a>
     </div>
     <p class="quiet">North Myrtle Beach: quiet past 48 hours (no free local hit newer than mid-Aug council/water-line items).</p>
 
-    <footer>Monday, August 31, 2026 · 16 cards</footer>
+    <footer>Tuesday, September 1, 2026 · 15 cards</footer>
   </main>
 </body>
 </html>
