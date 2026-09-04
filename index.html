@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Briefing · Thursday, September 3</title>
+  <title>Briefing · Friday, September 4</title>
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0e1013">
   <style>
@@ -40,238 +40,222 @@
 <body>
   <header>
     <div class="brand">Daily briefing</div>
-    <h1>Thursday, September 3</h1>
-    <div class="when">Last 24 hours · since 5:20 AM ET Wed Sep 2 · WSJ included</div>
+    <h1>Friday, September 4</h1>
+    <div class="when">Last 24 hours · since 5:00 AM ET Thu Sep 3 · WSJ included · 30 cards</div>
   </header>
   <main>
-    <p class="lead">Cursor self-hosted machines. Gemini 3.8 Flash. Iran hits US bases in Kuwait overnight; Trump says it will not last too long. Asia stocks up, oil slips. Hexagon F16. NMB Grille closing.</p>
-
+    <p class="lead">Grok Bot for Enterprise. WeatherNext 3. OpenAI Astra safety / Daybreak. llama.cpp #27610 SYCL. AJ Sep 4 Iran live (no talks until ship attacks stop). Dow +624 / Asia rally / Brent ~$96. Nvidia $13B HF. Tesla Cybercabs. Adobe CEO. VW 100k cuts. Nepal ~1,290. Kyiv Coca-Cola. NMB beach safety.</p>
     <div class="sec">Grok / Cursor / xAI</div>
     <div class="grid">
-      <a class="card" href="https://cursor.com/changelog">
-        <div class="k">Cursor</div>
-        <h2>Self-hosted machines, named pools, computer use on Linux/Mac</h2>
-        <p>Private workers stay on your network. Pools hibernate. Sandboxes on Lambda, Coder, Vercel, E2B. Computer use on Linux and Mac.</p>
-        <div class="src">cursor.com/changelog · Wed Sep 2</div>
+      <a class="card" href="https://x.ai/news/grok-bot-for-enterprise">
+        <div class="k">xAI</div>
+        <h2>Grok Bot for Enterprise</h2>
+        <p>Gov, network, and audit controls. Invite whole org including non-seat users. Free two weeks for Grok and Cursor Enterprise.</p>
+        <div class="src">x.ai/news · Thu Sep 3</div>
       </a>
     </div>
-    <p class="quiet">xAI / Grok Bot first-party: quiet.</p>
-
+    <p class="quiet">Cursor changelog still Sep 2 (aged out). No newer x.ai/news overnight.</p>
     <div class="sec">Local LLM / TeamLLM</div>
     <div class="grid">
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/28228">
-        <div class="k">llama.cpp #28228</div>
-        <h2>Hexagon F16 unary ops (NORM / RMS_NORM / SCALE / CLAMP)</h2>
-        <p>Same-day Hexagon follow-on after the overnight fuse. TeamLLM NPU card. #28202 aged out (2:15 AM Wed).</p>
-        <div class="src">GitHub · merged Wed Sep 2 3:59 PM ET</div>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/27610">
+        <div class="k">llama.cpp #27610</div>
+        <h2>SYCL: fuse rms_norm+mul+add and add+add residual chains</h2>
+        <p>SYCL residual fusion for local-box backends. Beat 2 lead after #25444/#28190 aged out.</p>
+        <div class="src">GitHub · merged Fri Sep 4 12:05 AM ET</div>
       </a>
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/25444">
-        <div class="k">llama.cpp #25444</div>
-        <h2>Nemotron-3-Puzzle-75B-A9B (NemotronHPuzzle) support</h2>
-        <p>Hybrid mamba2/attention/MoE, per-layer experts. 75B.A9B local-box size. Overnight miss; merged 2:53 AM ET Thu.</p>
-        <div class="src">GitHub · merged Thu Sep 3 2:53 AM ET</div>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/pull/28198">
+        <div class="k">llama.cpp #28198</div>
+        <h2>CUDA concurrent streams per split for multi-GPU</h2>
+        <p>Multi-GPU graph-opt still in window. Secondary to #27610.</p>
+        <div class="src">GitHub · Thu Sep 3 ~1:03 PM ET</div>
       </a>
     </div>
-
     <div class="sec">Frontier models</div>
-    <div class="grid">
-      <a class="card" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">
-        <div class="k">Google</div>
-        <h2>Gemini 3.8 Flash and 3.8 Flash Cyber</h2>
-        <p>Ship-day Flash workhorse plus defender-only Cyber via Fairwind. Same price as 3.7 Flash.</p>
-        <div class="src">Google blog · Wed Sep 2</div>
+    <div class="grid three">
+      <a class="card" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/">
+        <div class="k">Google DeepMind</div>
+        <h2>WeatherNext 3 global weather AI</h2>
+        <p>Hourly satellite-grounded forecasts in Search, Gemini, Maps, and Cloud. Brightband SOTA claim.</p>
+        <div class="src">Google blog · Thu Sep 3 11:00 AM ET</div>
+      </a>
+      <a class="card" href="https://openai.com/index/safety-overview-gpt-6-astra/">
+        <div class="k">OpenAI</div>
+        <h2>Safety overview: GPT-6 Astra Critical cyber tier</h2>
+        <p>First Critical cybersecurity rating under the Preparedness Framework. Sep 3 Astra companion.</p>
+        <div class="src">openai.com · Thu Sep 3</div>
+      </a>
+      <a class="card" href="https://openai.com/index/daybreak-for-frontline-defenders/">
+        <div class="k">OpenAI</div>
+        <h2>Daybreak for Frontline Defenders — $1B cyber-AI access</h2>
+        <p>Same-day Astra companion. Subsidized cyber-AI for frontline defenders.</p>
+        <div class="src">openai.com · Thu Sep 3</div>
       </a>
     </div>
-    <p class="quiet">Anthropic / OpenAI / xAI / Meta / Mistral first-party: quiet in this window.</p>
-
     <div class="sec">Agents / CoS</div>
     <p class="quiet">Quiet — no first-party production CoS write-up. Skip vendor listicles.</p>
-
     <div class="sec">AI on X</div>
-    <p class="quiet">Quiet — bookmarks last 24h: only a ChatGPT-prompts listicle (not carded). Claude folder Aug 27, Local AI Jun 30. Chrome reskim pending.</p>
-
-    <div class="sec">US</div>
+    <p class="quiet">Quiet — overnight @jtodd01 0 keepers (listicle skipped). 5:20 Chrome reskim in flight.</p>
+    <div class="sec">US / World</div>
     <div class="grid">
-      <a class="card" href="https://www.france24.com/en/live-news/20260903-iran-attacks-us-targets-despite-trump-threats">
-        <div class="k">France 24 / AFP</div>
-        <h2>Iran attacks US bases in Kuwait despite Trump threats</h2>
-        <p>Kuwait intercepting missiles and drones overnight. Trump says 19 dead in Iran and the US can strike anytime.</p>
-        <div class="src">France 24 · Thu Sep 3 ~3:19 AM ET</div>
+      <a class="card" href="https://www.aljazeera.com/news/liveblog/2026/9/4/iran-war-live-us-rules-out-iran-talks-until-ship-attacks-stop">
+        <div class="k">Al Jazeera</div>
+        <h2>US rules out Iran talks until ship attacks stop</h2>
+        <p>Sep 4 liveblog. Vance: all options open; no talks unless Hormuz ship attacks stop.</p>
+        <div class="src">Al Jazeera · Fri Sep 4</div>
       </a>
-      <a class="card" href="https://www.cnn.com/2026/09/02/politics/latest-us-strikes-against-iran-marked-a-shift-in-strategy">
-        <div class="k">CNN</div>
-        <h2>60 targets struck; 18 million barrels escorted through Hormuz</h2>
-        <p>Wartime-high escort day while US and Iran traded strikes.</p>
-        <div class="src">CNN · Wed Sep 2 7:25 PM ET</div>
-      </a>
-      <a class="card" href="https://www.pbs.org/newshour/world/iran-fires-on-its-gulf-neighbors-retaliating-for-u-s-strikes-after-a-wedding-was-hit">
-        <div class="k">PBS / AP</div>
-        <h2>Iran fires on Gulf neighbors after wedding-house strike</h2>
-        <p>Midday AP update. Wedding toll still the civilian-casualty lead.</p>
-        <div class="src">PBS · Wed Sep 2 11:46 AM ET</div>
-      </a>
-      <a class="card" href="https://www.reuters.com/world/trump-aides-fearing-midterm-rout-push-keep-iran-war-quiet-now-2026-09-02/">
-        <div class="k">Reuters</div>
-        <h2>Trump aides want Iran war quiet until the midterms</h2>
-        <p>Vance and Rubio pushing to keep the war from escalating before November.</p>
-        <div class="src">Reuters · Wed Sep 2</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/politics/national-security/hegseth-extends-mideast-deployments-into-2027-escalating-strain-on-troops-c10fc533">
-        <div class="k">WSJ</div>
-        <h2>Hegseth extends Mideast deployments into 2027</h2>
-        <p>Open-ended posture to keep Iran-war options.</p>
-        <div class="src">WSJ · Wed Sep 2 9:00 PM ET</div>
-      </a>
-      <a class="card" href="https://www.nhc.noaa.gov/archive/2026/al05/al052026.public.012.shtml">
-        <div class="k">NHC</div>
-        <h2>Remnants of Edouard ~40 mi SE of Dallas; last public advisory</h2>
-        <p>Advisory 12 FINAL. 25 mph, additional 2–4 in NE Texas Thursday. Path totals 5–10 in, isolated 22 in. Flood watches hold.</p>
-        <div class="src">NHC · Thu Sep 3 5:00 AM ET</div>
-      </a>
-    </div>
-
-    <div class="sec">World</div>
-    <div class="grid">
       <a class="card" href="https://www.aljazeera.com/news/liveblog/2026/9/3/iran-war-live-trump-says-renewed-us-iran-clashes-will-not-last-too">
         <div class="k">Al Jazeera</div>
-        <h2>Iran war live: Trump says clashes will not last too long</h2>
-        <p>Overnight liveblog. 105 women and children wounded claim; Kuwait air defenses active.</p>
+        <h2>Trump says clashes will not last too long</h2>
+        <p>Prior-day liveblog still in window. Pair with Sep 4 no-talks delta.</p>
         <div class="src">Al Jazeera · Thu Sep 3</div>
       </a>
-      <a class="card" href="https://www.wsj.com/world/middle-east/iran-strikes-us-1d263f3f">
-        <div class="k">WSJ</div>
-        <h2>U.S. and Iran trade strikes for Hormuz</h2>
-        <p>Hormuz control is the supply-chain shock under the overnight Kuwait flare.</p>
-        <div class="src">WSJ · overnight</div>
+      <a class="card" href="https://www.theguardian.com/world/2026/sep/03/iran-targets-us-bases-as-israel-warns-sanctions-could-drive-tehran-to-desperate-steps">
+        <div class="k">Guardian</div>
+        <h2>Iran targets US bases; Israel warns on sanctions pressure</h2>
+        <p>UAE and Kuwait base targeting. Israel defense chief on sanctions driving desperate steps.</p>
+        <div class="src">Guardian · Thu Sep 3</div>
       </a>
-      <a class="card" href="https://www.aljazeera.com/news/2026/9/2/saudi-arabia-condemns-deadly-iranian-attack-on-tanker-in-strait-of-hormuz">
-        <div class="k">Al Jazeera</div>
-        <h2>Saudi condemns Bahri tanker Sidr attack</h2>
-        <p>Two Filipino sailors killed. Riyadh names Iran; IRGC mine claim vs CENTCOM denial.</p>
-        <div class="src">Al Jazeera · Wed Sep 2</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/world/middle-east/saudi-nuclear-agreement-could-open-a-path-to-20-enrichment-21806868">
-        <div class="k">WSJ</div>
-        <h2>Saudi nuclear deal could open a path to 20% enrichment</h2>
-        <p>Enrichment terms could harden Congress.</p>
-        <div class="src">WSJ · Wed Sep 2 5:50 PM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/world/asia/china-warships-japan-defense-10978aba">
-        <div class="k">WSJ</div>
-        <h2>Chinese warships cruising too close off Japan</h2>
-        <p>Tokyo calls this its worst security environment since WWII.</p>
-        <div class="src">WSJ · Wed Sep 2 9:00 PM ET</div>
-      </a>
-      <a class="card" href="https://kyivindependent.com/explosions-rock-kyiv-during-7th-straight-night-of-russian-attacks/">
+      <a class="card" href="https://kyivindependent.com/russia-strikes-coca-cola-plant-in-kyiv-on-eighth-straight-day-of-attacks/">
         <div class="k">Kyiv Independent</div>
-        <h2>Explosions on a 7th straight night of attacks on Kyiv</h2>
-        <p>Odesa: 17 injured including 3 children. Same URL, updated ~4:41 AM ET Thu.</p>
-        <div class="src">Kyiv Independent · updated Thu Sep 3 ~4:41 AM ET</div>
+        <h2>Russia hits Coca-Cola plant near Brovary; 8th straight Kyiv day</h2>
+        <p>Zelensky: clear Russian signal to America. Fri toll update → 14 injured.</p>
+        <div class="src">Kyiv Independent · Thu Sep 3</div>
+      </a>
+      <a class="card" href="https://english.nepalnews.com/s/nation/bhote-koshi-flood-disaster-death-toll-reaches-1290-over-4700-remain-missing/">
+        <div class="k">Nepal News</div>
+        <h2>Flood death toll ~1,290; thousands missing</h2>
+        <p>Toll step vs overnight 1,259. Hundreds of children missing in Rasuwa/Nuwakot.</p>
+        <div class="src">Nepal News · Fri ~12:20 AM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/world/ukraines-next-goal-is-to-shut-down-russias-commercial-airspace-6f9369d9">
+        <div class="k">WSJ</div>
+        <h2>Ukraine’s next goal: shut down Russia’s commercial airspace</h2>
+        <p>Drone warfare pressuring airlines on Russian airports.</p>
+        <div class="src">WSJ · Thu Sep 3 10:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/politics/national-security/trump-names-adam-telle-acting-army-secretary-after-driscoll-resignation-e236f4b1">
+        <div class="k">WSJ</div>
+        <h2>Trump names Adam Telle acting Army secretary</h2>
+        <p>Succeeds Driscoll after resignation amid Hegseth tensions. National-security move during Iran war.</p>
+        <div class="src">WSJ · Thu Sep 3 7:55 PM ET</div>
       </a>
     </div>
-
-    <div class="sec">Investments / Finance</div>
+    <div class="sec">Markets / Finance</div>
     <div class="grid">
-      <a class="card" href="https://www.thejapantimes.jp/Economy/725314-stocks-rise-yields-ease-as-oil-slips-on-trump-hint-at-short-bombing-campaign.html">
-        <div class="k">Japan Times</div>
-        <h2>Asia stocks rise, oil slips on Trump short-campaign hint</h2>
-        <p>Brent ~$95.44. Yen ~158.4. Overnight tape after the Wed $95.63 settle.</p>
-        <div class="src">Japan Times · Thu Sep 3 Asia session</div>
+      <a class="card" href="https://www.cnbc.com/2026/09/02/stock-market-today-live-updates.html">
+        <div class="k">CNBC</div>
+        <h2>Dow +624; Nasdaq +1.4%; Brent ~$95.52</h2>
+        <p>Best Dow day since Aug 4. Tech lead. Waller cuts hike odds.</p>
+        <div class="src">CNBC · Thu Sep 3 close</div>
       </a>
-      <a class="card" href="https://apnews.com/article/wall-street-stocks-dow-nasdaq-7cb0aefedfd933d048b8b3e5843449f8">
-        <div class="k">AP</div>
-        <h2>Dow +295; Brent $95.63; 10-year 4.78%</h2>
-        <p>Three-day slide snapped Wednesday. Oil still ~$95 into the Asia slip.</p>
-        <div class="src">AP · Wed Sep 2 close</div>
+      <a class="card" href="https://www.afp.com/en/asian-stocks-rally-traders-pare-rate-bets-ahead-jobs-data">
+        <div class="k">AFP</div>
+        <h2>Asian stocks rally as traders pare rate bets ahead of jobs</h2>
+        <p>Hang Seng +2.2%. Brent ~$95.98. Waller hold-inclined echo.</p>
+        <div class="src">AFP · Fri ~4:42 AM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/finance/commodities-futures/european-gas-at-highest-level-since-end-of-2022-on-u-s-iran-hostilities-f6d51d99">
+      <a class="card" href="https://m.economictimes.com/markets/commodities/news/oil-price-today-september-4-crude-oil-at-96-set-for-a-7-weekly-surge-as-iran-us-exchange-attacks-whats-next/articleshow/133749625.cms">
+        <div class="k">Economic Times</div>
+        <h2>Oil ~$96 Fri; set for ~7% weekly surge</h2>
+        <p>Iran/US exchange attacks frame. Brent near $96.</p>
+        <div class="src">Economic Times · Fri Sep 4</div>
+      </a>
+      <a class="card" href="https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm">
+        <div class="k">Federal Reserve</div>
+        <h2>Waller: inclined to hold Sep 15–16 if Aug inflation cools</h2>
+        <p>First-party speech. Markets rallied on hold-inclined comments.</p>
+        <div class="src">Federal Reserve · Thu Sep 3</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/finance/currencies/yen-consolidates-likely-buoyed-by-prospects-of-hawkish-boj-rate-hike-b1eb9c38">
         <div class="k">WSJ</div>
-        <h2>European gas highest since end of 2022</h2>
-        <p>EU industrial margin squeeze on US-Iran hostilities.</p>
-        <div class="src">WSJ · Wed Sep 2</div>
+        <h2>Yen consolidates on hawkish BOJ hike prospects</h2>
+        <p>Thu night Latest Headlines clock (10:59 PM ET feed), not Wed.</p>
+        <div class="src">WSJ · Thu Sep 3 10:59 PM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/finance/investing/there-are-four-forces-pressuring-bonds-war-is-no-1-68d3ace9">
+      <a class="card" href="https://www.wsj.com/finance/commodities-futures/gold-rises-on-weaker-u-s-dollar-821f948d">
         <div class="k">WSJ</div>
-        <h2>Four forces pressuring bonds: war is No. 1</h2>
-        <p>Yield climb = war + AI bond supply + Fed leadership.</p>
-        <div class="src">WSJ · Wed Sep 2 ~9:00 PM ET</div>
+        <h2>Gold rises on weaker U.S. dollar</h2>
+        <p>Dovish-Fed / weaker-dollar tape.</p>
+        <div class="src">WSJ · Thu Sep 3 9:20 PM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/finance/currencies/yen-consolidates-may-be-supported-by-lingering-risks-of-fx-intervention-45c3cccb">
+      <a class="card" href="https://www.wsj.com/business/autos/volkswagen-board-approves-plan-to-cut-workforce-model-portfolio-ac933812">
         <div class="k">WSJ</div>
-        <h2>Yen strengthens on BOJ tightening bets</h2>
-        <p>Clocked 11 PM recut. Intervention risk still in the tape.</p>
-        <div class="src">WSJ · Wed Sep 2 10:58 PM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/finance/commodities-futures/gold-falls-markets-await-further-u-s-jobs-data-926919c4">
-        <div class="k">WSJ</div>
-        <h2>Comex gold may rise toward $4,600</h2>
-        <p>StoneX technical call ahead of US jobs data.</p>
-        <div class="src">WSJ · Wed Sep 2 10:13 PM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/business/energy-oil/why-trumps-venezuela-oil-grab-is-no-quick-fix-for-gas-prices-744f52a7">
-        <div class="k">WSJ</div>
-        <h2>Venezuela oil grab is no quick fix for gas prices</h2>
-        <p>Pump-price relief from the Venezuela plan looks slow.</p>
-        <div class="src">WSJ · Wed Sep 2 10:00 PM ET</div>
+        <h2>Volkswagen board doubles job cuts to 100,000</h2>
+        <p>Fri AM update. Major EU restructuring; shares jumped.</p>
+        <div class="src">WSJ · updated Fri ~3:32 AM ET</div>
       </a>
     </div>
-
-    <div class="sec">Tech / Business</div>
+    <div class="sec">Tech / AI / Business</div>
     <div class="grid">
-      <a class="card" href="https://www.wsj.com/business/earnings/broadcom-third-quarter-profit-soars-on-ai-driven-revenue-growth-c5add826">
-        <div class="k">WSJ</div>
-        <h2>Broadcom Q3 profit soars on custom AI chips</h2>
-        <p>Profit more than tripled. Custom silicon demand seen lasting two more years. Asia chips bounced overnight.</p>
-        <div class="src">WSJ · Wed Sep 2 6:43 PM ET</div>
+      <a class="card" href="https://www.techtimes.com/articles/326509/20260903/gemini-survived-when-chatgpt-claude-grok-collapsed-azure-fault.htm">
+        <div class="k">TechTimes</div>
+        <h2>Gemini up when ChatGPT/Claude/Grok/Cursor down (Azure)</h2>
+        <p>Multi-vendor AI outage card. Infra, not a product release.</p>
+        <div class="src">TechTimes · Thu Sep 3</div>
       </a>
-      <a class="card" href="https://247wallst.com/investing/2026/09/02/dell-surges-9-on-record-95b-ai-backlog-hewlett-packard-enterprise-climbs-4-super-micro-ticks-up/">
-        <div class="k">24/7 Wall St</div>
-        <h2>Dell surges on a $95B AI backlog</h2>
-        <p>Wednesday tape reaction. Original print was Tuesday afternoon (out).</p>
-        <div class="src">24/7 Wall St · Wed Sep 2 9:20 AM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/tech/ai/microsoft-to-change-reporting-structure-to-reflect-effects-of-ai-59dce66d">
+      <a class="card" href="https://www.wsj.com/tech/ai/the-deeply-nerdy-founders-behind-nvidias-13-billion-bet-on-hugging-face-3a4b5227">
         <div class="k">WSJ</div>
-        <h2>Microsoft to change AI reporting structure</h2>
-        <p>AI now big enough to rewrite the 10-K map.</p>
-        <div class="src">WSJ · Wed Sep 2 5:21 PM ET</div>
+        <h2>Nvidia’s $13B Hugging Face bet — ‘deeply nerdy’ founders</h2>
+        <p>Late Thu WSJ AI capital card.</p>
+        <div class="src">WSJ · Thu Sep 3 10:18 PM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/business/autos/fords-30-000-ev-truck-sets-ambitious-goal-100-000-sales-in-year-one-ac8f0859">
+      <a class="card" href="https://www.wsj.com/business/autos/tesla-cybercabs-hit-austin-streets-in-expansion-of-robotaxi-service-e9845a55">
         <div class="k">WSJ</div>
-        <h2>Ford $30k EV truck aims at 100,000 year-one sales</h2>
-        <p>Fathom opens a cheaper EV line.</p>
-        <div class="src">WSJ · Wed Sep 2 7:00 PM ET</div>
+        <h2>Tesla Cybercabs hit Austin streets</h2>
+        <p>Robotaxi footprint expansion.</p>
+        <div class="src">WSJ · Thu Sep 3 7:31 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e">
+        <div class="k">WSJ</div>
+        <h2>Adobe names Anil Chakravarthy CEO amid AI transformation</h2>
+        <p>Big-software succession on AI product track.</p>
+        <div class="src">WSJ · Thu Sep 3 6:16 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/business/energy-oil/why-big-oil-is-wary-of-trumps-foray-into-venezuelas-oil-patch-4ec1e72b">
+        <div class="k">WSJ</div>
+        <h2>Why Big Oil is wary of Trump’s Venezuela oil foray</h2>
+        <p>Strategy card under Hormuz oil premium.</p>
+        <div class="src">WSJ · Thu Sep 3 9:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02">
+        <div class="k">WSJ</div>
+        <h2>Zscaler loss narrows; revenue soars, boosted by AI</h2>
+        <p>AI security demand plus workforce cut to fund AI.</p>
+        <div class="src">WSJ · Thu Sep 3 4:46 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/business/earnings/docusign-raises-sales-view-on-higher-second-quarter-revenue-f41217a6">
+        <div class="k">WSJ</div>
+        <h2>Docusign raises sales view on AI-related demand</h2>
+        <p>Second sales raise; AI demand cited.</p>
+        <div class="src">WSJ · Thu Sep 3 4:19 PM ET</div>
       </a>
     </div>
-
-    <div class="sec">Psychology Today</div>
+    <div class="sec">Psychology</div>
     <div class="grid">
-      <a class="card" href="https://www.psychologytoday.com/us/blog/evidence-based-living/202609/how-to-change-the-minds-of-conspiracy-theory-believers">
+      <a class="card" href="https://www.psychologytoday.com/us/blog/the-future-brain/202609/the-attention-deficit-of-ai-revealed">
         <div class="k">Psychology Today</div>
-        <h2>How to change the minds of conspiracy-theory believers</h2>
-        <p>DebunkBot: about a 20% belief drop, held two months. Agent-adjacent, not a CoS case.</p>
-        <div class="src">Psychology Today · Wed Sep 2</div>
+        <h2>The Attention Deficit of AI Revealed</h2>
+        <p>AI cognition / attention-deficit frame.</p>
+        <div class="src">Psychology Today · Sep 2026</div>
+      </a>
+      <a class="card" href="https://www.psychologytoday.com/us/blog/harnessing-hybrid-intelligence/202609/with-ai-has-your-mirror-started-to-agree">
+        <div class="k">Psychology Today</div>
+        <h2>With AI, has your mirror started to agree?</h2>
+        <p>Hybrid-intelligence agreeableness frame.</p>
+        <div class="src">Psychology Today · Sep 2026</div>
       </a>
     </div>
-
-    <div class="sec">Local · Laurinburg + NMB</div>
+    <div class="sec">Local — NMB / Laurinburg</div>
     <div class="grid">
-      <a class="card" href="https://whatnow.com/news/local-news/a-north-myrtle-beach-waterfront-steakhouse-shutting-down-after-27-years/">
-        <div class="k">whatnow</div>
-        <h2>Greg Norman Australian Grille closing Oct 15 after 27 years</h2>
-        <p>Barefoot Landing waterfront. In-window recap.</p>
-        <div class="src">whatnow · Wed Sep 2 8:02 AM ET</div>
-      </a>
-      <a class="card" href="https://www.wmbfnews.com/2026/09/03/myrtle-beach-leaders-push-change-tourism-fee-split/">
+      <a class="card" href="https://www.wmbfnews.com/2026/09/03/beach-safety-labor-day-weekend-grand-strand/">
         <div class="k">WMBF</div>
-        <h2>Myrtle Beach leaders push TDF split from 80/20 to 60/40</h2>
-        <p>City wants 60% of the 1% tourism development fee vs Visit Myrtle Beach 40%. Grand Strand, not NMB proper.</p>
-        <div class="src">WMBF · Wed Sep 2 10:24 PM ET</div>
+        <h2>Beach safety for Labor Day weekend on the Grand Strand</h2>
+        <p>NMB Ocean Rescue staffing and QR beach conditions ahead of holiday weekend.</p>
+        <div class="src">WMBF · Thu Sep 3</div>
       </a>
     </div>
-    <p class="quiet">Laurinburg: quiet — no in-window clock.</p>
-
-    <footer>30 cards · last 24 hours only · WSJ via signed-in session · News finds, Chief publishes</footer>
+    <p class="quiet">Laurinburg: quiet — no in-window hit after Thu 5:00 AM ET.</p>
+    <footer>News find/rank only · Chief publishes · Window after Thu 5:00 AM ET · X 0 · news 30 · WSJ 13 in pack (14 in am5; CNBC oil settle merged under ET oil) · written Fri Sep 4 ~5:25 AM ET</footer>
   </main>
 </body>
 </html>
