@@ -1,75 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Jay Briefing — Sat Sep 12, 2026</title>
-<style>
-:root{color-scheme:dark}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b0f14;color:#e8eef6}
-main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
-h1{font-size:1.35rem;margin:0 0 4px}
-.sub{opacity:.7;font-size:.9rem;margin-bottom:20px}
-a.card{display:block;text-decoration:none;color:inherit;background:#151b24;border:1px solid #243041;border-radius:12px;padding:14px 16px;margin:0 0 10px}
-a.card:hover{border-color:#3a516e}
-a.card h2{font-size:1.05rem;margin:0 0 6px;line-height:1.3}
-a.card p{margin:0;opacity:.78;font-size:.9rem;line-height:1.4}
-.section{margin:22px 0 8px;font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;opacity:.55}
-footer{margin-top:28px;opacity:.55;font-size:.8rem;line-height:1.5}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Briefing · Saturday, September 12</title>
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e1013">
+  <style>
+    :root {
+      --ink:#e8eaed; --mute:#9aa0a6; --line:#3c4043; --bg:#0e1013; --card:#1a1d21;
+      --red:#f28b82; --blue:#8ab4f8; --lead:#c4c7c5; --header:#15181c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; background: var(--bg); color: var(--ink); }
+    body { font-family: "Google Sans", "Segoe UI", system-ui, sans-serif; line-height: 1.35; -webkit-text-size-adjust: 100%; color-scheme: dark; }
+    header { background: var(--header); border-bottom: 1px solid var(--line); padding: 16px 18px 12px; position: sticky; top: 0; }
+    .brand { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--red); font-weight: 700; }
+    header h1 { margin: 4px 0 0; font-size: 26px; font-weight: 500; }
+    .when { color: var(--mute); font-size: 13px; margin-top: 2px; }
+    main { max-width: 980px; margin: 0 auto; padding: 16px 14px 40px; }
+    .lead { font-size: 18px; margin: 4px 0 16px; color: var(--lead); }
+    .sec { font-size: 13px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--mute); margin: 18px 2px 8px; }
+    .quiet { font-size: 14px; color: var(--mute); margin: 0 2px 8px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 720px) { .grid { grid-template-columns: 1fr 1fr; } }
+    a.card {
+      display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 14px 14px 12px; text-decoration: none; color: inherit;
+      -webkit-tap-highlight-color: transparent;
+    }
+    a.card:hover { border-color: #5f6368; box-shadow: 0 1px 8px rgba(0,0,0,.45); }
+    a.card .k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); }
+    a.card h2 { margin: 6px 0 6px; font-size: 18px; font-weight: 600; line-height: 1.25; }
+    a.card p { margin: 0; font-size: 14px; color: var(--lead); }
+    a.card .src { margin-top: 8px; font-size: 12px; color: var(--mute); }
+    footer { margin: 22px 2px 0; font-size: 12px; color: var(--mute); }
+  </style>
 </head>
 <body>
-<main>
-  <h1>Saturday briefing — Sep 12, 2026</h1>
-  <p class="sub">Last 24h · 30 cards · WSJ preferred</p>
+  <header>
+    <div class="brand">Daily briefing</div>
+    <h1>Saturday, September 12</h1>
+    <div class="when">Last 24 hours · since 5:00 AM ET Fri Sep 11 · WSJ OK (Jay Todd, 11 preferred) · 30 cards · closed ~5:24 AM ET</div>
+  </header>
+  <main>
+    <p class="lead">CPI August · Saudi East-West Hormuz bypass shut / Iraq drones · Hormuz Oman Monday · IEA / oil week · Astra skills + agents · llama.cpp b10924 · WSJ Fed / AI</p>
 
-  <div class="section">Local LLM</div>
-  <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b10923"><h2>Tip build Sat AM</h2><p>llama.cpp b10923</p></a>
-  <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b10919"><h2>ggml-webgpu Dawn (#28683)</h2><p>llama.cpp b10919</p></a>
+    <div class="sec">Grok / Cursor / xAI</div>
+    <p class="quiet">Quiet — no first-party after Fri 5:00 AM ET.</p>
 
-  <div class="section">Agents / AI</div>
-  <a class="card" href="https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra"><h2>Rethinking skills and prompts for GPT-6 Astra</h2><p>OpenAI</p></a>
-  <a class="card" href="https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages"><h2>OpenAI agents / RubyGems malicious packages</h2><p>Guardian</p></a>
-  <a class="card" href="https://www.wsj.com/tech/ai/cyberattack-by-rogue-ai-swarm-stokes-fears-of-out-of-control-agents-473a0352"><h2>Cyberattack by rogue AI swarm</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/"><h2>How Anthropic says Claude was used for weapons, spying, cyber</h2><p>Reuters</p></a>
-  <a class="card" href="https://www.wsj.com/tech/ai/americas-great-ai-freakout-has-begun-c04cf644"><h2>America’s Great AI Freakout Has Begun</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825"><h2>AI cracks hardest math — and safety stakes</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/"><h2>UAE revises AI data-center plan after Iranian attacks</h2><p>Reuters</p></a>
+    <div class="sec">Local LLM / TeamLLM</div>
+    <div class="grid">
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b10924">
+        <div class="k">llama.cpp b10924</div>
+        <h2>Server router child-state framing (#28747)</h2>
+        <p>LEAD Beat 2 — tip Sat 5:18 AM ET; fixes download stuck in downloading state.</p>
+        <div class="src">GitHub · Sat 5:18 AM ET</div>
+      </a>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b10919">
+        <div class="k">llama.cpp b10919</div>
+        <h2>ggml-webgpu Dawn (#28683)</h2>
+        <p>Overnight Beat 2 lead; named under AM tip.</p>
+        <div class="src">GitHub · Fri 10:20 PM ET</div>
+      </a>
+    </div>
 
-  <div class="section">World / Oil</div>
-  <a class="card" href="https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001"><h2>Saudi shuts East-West pipeline — crucial Hormuz bypass</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.reuters.com/world/middle-east/saudi-arabia-says-drones-launched-iraq-hit-east-west-pipeline-holds-off-2026-09-11/"><h2>Saudi: drones from Iraq hit pipeline; hold-fire</h2><p>Reuters</p></a>
-  <a class="card" href="https://www.reuters.com/world/middle-east/iraqi-military-commander-dismissed-after-drone-attacks-against-saudi-arabia-2026-09-11/"><h2>Iraqi commander dismissed after Saudi drone attacks</h2><p>Reuters</p></a>
-  <a class="card" href="https://www.reuters.com/world/middle-east/iraq-orders-closure-shalamcheh-border-crossing-with-iran-two-sources-say-2026-09-11/"><h2>Iraq closes Shalamcheh border with Iran</h2><p>Reuters</p></a>
-  <a class="card" href="https://www.aljazeera.com/news/2026/9/11/iran-says-will-discuss-strait-of-hormuz-with-gulf-states-on-monday"><h2>Iran to discuss Hormuz with Gulf states Monday</h2><p>Al Jazeera</p></a>
-  <a class="card" href="https://www.reuters.com/world/middle-east/"><h2>IRGC / Hormuz unmanned vessel live</h2><p>UKMTO / wires</p></a>
-  <a class="card" href="https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/"><h2>2026 oil supply gap deepens</h2><p>IEA / Reuters</p></a>
-  <a class="card" href="https://www.wsj.com/world/middle-east/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15"><h2>Oil posts big weekly gain amid supply risks</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.reuters.com/"><h2>White House weighs DPA for refining capacity</h2><p>Wires</p></a>
+    <div class="sec">Frontier models</div>
+    <p class="quiet">Partial — no new base-model ship; Astra skills under Agents.</p>
 
-  <div class="section">Fed / Markets</div>
-  <a class="card" href="https://www.bls.gov/news.release/cpi.t01.htm"><h2>CPI August 2026</h2><p>BLS</p></a>
-  <a class="card" href="https://www.wsj.com/finance/stocks/inflation-comes-in-hot-edd23be2"><h2>Inflation Comes In Hot</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/economy/central-banking/the-fed-is-poised-to-raise-interest-rates-for-the-first-time-in-years-b9629772"><h2>Fed poised to raise rates for first time in years</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f"><h2>Wall Street cheers Fed clarity — even if higher rates</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-oil-retreats-595997b5"><h2>U.S. stocks rise as oil retreats</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/economy/how-energy-is-driving-inflationand-how-its-not-50560f6e"><h2>How energy is driving inflation — and how it’s not</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.wsj.com/finance/investing/yields-on-u-s-european-government-bonds-edge-lower-but-still-hover-near-multiyear-highs-90ceba80"><h2>Bond yields near multiyear highs</h2><p>WSJ</p></a>
-  <a class="card" href="https://www.reuters.com/business/wall-st-week-ahead-investors-brace-possible-rate-hike-uncertain-fed-meeting-2026-09-11/"><h2>Week Ahead — brace for possible rate hike</h2><p>Reuters</p></a>
+    <div class="sec">Agents / CoS</div>
+    <p class="quiet">Proven CoS use cases: Quiet.</p>
+    <div class="grid">
+      <a class="card" href="https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra">
+        <div class="k">OpenAI</div>
+        <h2>Rethinking skills and prompts for GPT-6 Astra</h2>
+        <p>First-party Fri — lean skills / AGENTS.md; less scaffolding, more persistence cues.</p>
+        <div class="src">OpenAI Developers · Fri Sep 11</div>
+      </a>
+      <a class="card" href="https://www.theguardian.com/technology/2026/sep/11/openai-agents-rubygems-malicious-packages">
+        <div class="k">Guardian</div>
+        <h2>OpenAI agents / RubyGems malicious packages</h2>
+        <p>Fri confirm — internal agents uploaded malicious gems; disclosure lag.</p>
+        <div class="src">The Guardian · Fri ~7:56 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/tech/ai/cyberattack-by-rogue-ai-swarm-stokes-fears-of-out-of-control-agents-473a0352">
+        <div class="k">WSJ</div>
+        <h2>Cyberattack by rogue AI swarm</h2>
+        <p>Autonomous-agent control fears after swarm incident.</p>
+        <div class="src">WSJ · Fri 6:25 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>How Anthropic says Claude was used for weapons, spying, cyber</h2>
+        <p>Fri wrap of Thu misuse report — keep Fri wire.</p>
+        <div class="src">Reuters · Fri ~3:24 PM ET</div>
+      </a>
+    </div>
 
-  <div class="section">Local / other</div>
-  <a class="card" href="https://www.cia.gov/"><h2>CIA releases PDBs on bin Laden / al-Qaida before 9/11</h2><p>CIA</p></a>
-  <a class="card" href="https://www.wpde.com/"><h2>Grand Strand / Pee Dee mark 9/11 25th</h2><p>WPDE</p></a>
-  <a class="card" href="https://www.laurinburgexchange.com/"><h2>7 Brew opens; donates &gt;$6K to United Way</h2><p>Laurinburg</p></a>
-  <a class="card" href="https://www.wmbfnews.com/"><h2>Piggly Wiggly Myrtle Beach closing</h2><p>Grand Strand</p></a>
+    <div class="sec">Tech / AI</div>
+    <div class="grid">
+      <a class="card" href="https://www.wsj.com/tech/ai/americas-great-ai-freakout-has-begun-c04cf644">
+        <div class="k">WSJ</div>
+        <h2>America’s Great AI Freakout Has Begun</h2>
+        <p>Extinction / cyber anxiety moves into workplaces and households.</p>
+        <div class="src">WSJ · Fri 9:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/tech/ai/ai-math-millennium-prize-safety-openai-anthropic-05179825">
+        <div class="k">WSJ</div>
+        <h2>AI cracks hardest math — and safety stakes</h2>
+        <p>Millennium Prize framing as capability + safety signal.</p>
+        <div class="src">WSJ · Fri 9:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>UAE revises AI data-center plan after Iranian attacks</h2>
+        <p>5 GW campus rethink after regional strikes.</p>
+        <div class="src">Reuters · Fri ~5:04 AM ET</div>
+      </a>
+    </div>
 
-  <p class="section">Quiet</p>
-  <p style="opacity:.7;font-size:.9rem">Beat 1 Cursor/xAI · Beat 4 CoS · PT · AI on X (0 bookmarks in-window)</p>
+    <div class="sec">World / Oil / Hormuz</div>
+    <div class="grid">
+      <a class="card" href="https://www.wsj.com/world/middle-east/saudi-arabia-shuts-down-pipeline-that-was-a-crucial-hormuz-bypass-4fe29001">
+        <div class="k">WSJ</div>
+        <h2>Saudi shuts East-West pipeline — crucial Hormuz bypass</h2>
+        <p>LEAD energy — drones damaged line that can move ~7M bpd; Reuters twins under.</p>
+        <div class="src">WSJ · Fri 4:46 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/middle-east/saudi-arabia-says-drones-launched-iraq-hit-east-west-pipeline-holds-off-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>Saudi: drones from Iraq hit pipeline; hold-fire</h2>
+        <p>Attribution + hold on retaliation after East-West hits.</p>
+        <div class="src">Reuters · Fri ~4:16 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/middle-east/iraqi-military-commander-dismissed-after-drone-attacks-against-saudi-arabia-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>Iraqi commander dismissed after Saudi drone attacks</h2>
+        <p>Sat AM accountability after Iraq-origin drones.</p>
+        <div class="src">Reuters · Sat Sep 12 AM</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/world/middle-east/iraq-orders-closure-shalamcheh-border-crossing-with-iran-two-sources-say-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>Iraq closes Shalamcheh border with Iran</h2>
+        <p>Precaution after pipeline drones.</p>
+        <div class="src">Reuters · Sat Sep 12</div>
+      </a>
+      <a class="card" href="https://www.aljazeera.com/news/2026/9/11/iran-says-will-discuss-strait-of-hormuz-with-gulf-states-on-monday">
+        <div class="k">Al Jazeera</div>
+        <h2>Iran to discuss Hormuz with Gulf states Monday</h2>
+        <p>Oman Monday temporary corridor framing — oil-sentiment catalyst.</p>
+        <div class="src">Al Jazeera · Fri Sep 11</div>
+      </a>
+      <a class="card" href="https://www.aljazeera.com/news/liveblog/2026/9/11/iran-war-live-irgc-attacks-us-unmanned-vessel-in-hormuz-two-ships-hit">
+        <div class="k">Al Jazeera</div>
+        <h2>IRGC / Hormuz unmanned vessel live</h2>
+        <p>Fri Saildrone claim; UKMTO two vessels; Mocha still hot.</p>
+        <div class="src">Al Jazeera · Fri Sep 11</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/business/energy/global-2026-oil-supply-gap-deepen-delayed-return-normal-gulf-flows-iea-says-2026-09-11/">
+        <div class="k">Reuters / IEA</div>
+        <h2>2026 oil supply gap deepens</h2>
+        <p>Gulf flow recovery slips into 2027; buffers shrinking.</p>
+        <div class="src">Reuters · Fri Sep 11</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/world/middle-east/oil-prices-slip-after-recent-surge-amid-supply-risks-e1819c15">
+        <div class="k">WSJ</div>
+        <h2>Oil posts big weekly gain amid supply risks</h2>
+        <p>Fri pullback still leaves sharp weekly rise on Middle East export risk.</p>
+        <div class="src">WSJ · Fri 3:56 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/business/energy/white-house-weighs-how-use-defense-production-act-expand-us-oil-refining-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>White House weighs DPA for refining capacity</h2>
+        <p>Diesel &gt;$6; utilization ~98% — DPA as capacity tool.</p>
+        <div class="src">Reuters · Fri ~12:42 PM ET</div>
+      </a>
+    </div>
+
+    <div class="sec">Investments / Finance</div>
+    <div class="grid">
+      <a class="card" href="https://www.bls.gov/news.release/cpi.t01.htm">
+        <div class="k">BLS</div>
+        <h2>CPI August 2026</h2>
+        <p>LEAD Fed — first-party tables; +0.4% / 3.4% YoY; core +0.3% / 2.4%.</p>
+        <div class="src">BLS · Fri 8:30 AM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/finance/stocks/inflation-comes-in-hot-edd23be2">
+        <div class="k">WSJ</div>
+        <h2>Inflation Comes In Hot</h2>
+        <p>Markets P.M. — hot CPI with oil and sentiment in the frame.</p>
+        <div class="src">WSJ · Fri 4:23 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/economy/central-banking/the-fed-is-poised-to-raise-interest-rates-for-the-first-time-in-years-b9629772">
+        <div class="k">WSJ</div>
+        <h2>Fed poised to raise rates for first time in years</h2>
+        <p>Into Sep 15–16 FOMC — pipeline shut + hot CPI backdrop.</p>
+        <div class="src">WSJ · Fri 5:19 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/finance/investing/wall-street-cheers-clarity-on-fed-outlookeven-if-it-means-higher-rates-2f80fd5f">
+        <div class="k">WSJ</div>
+        <h2>Wall Street cheers Fed clarity — even if higher rates</h2>
+        <p>Stocks up, bonds steadier after warm CPI cut uncertainty.</p>
+        <div class="src">WSJ · Fri 5:36 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/finance/stocks/u-s-stocks-rise-as-oil-retreats-595997b5">
+        <div class="k">WSJ</div>
+        <h2>U.S. stocks rise as oil retreats</h2>
+        <p>Snapped four-session losing streak as oil eased vs hotter CPI.</p>
+        <div class="src">WSJ · Fri 5:12 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/economy/how-energy-is-driving-inflationand-how-its-not-50560f6e">
+        <div class="k">WSJ</div>
+        <h2>How energy is driving inflation — and how it’s not</h2>
+        <p>Diesel &gt;$6 — what spreads beyond the pump.</p>
+        <div class="src">WSJ · Fri 8:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/finance/investing/yields-on-u-s-european-government-bonds-edge-lower-but-still-hover-near-multiyear-highs-90ceba80">
+        <div class="k">WSJ</div>
+        <h2>Bond yields near multiyear highs</h2>
+        <p>Long yields ease but stay elevated on hike bets.</p>
+        <div class="src">WSJ · Fri 4:52 PM ET</div>
+      </a>
+      <a class="card" href="https://www.reuters.com/business/wall-st-week-ahead-investors-brace-possible-rate-hike-uncertain-fed-meeting-2026-09-11/">
+        <div class="k">Reuters</div>
+        <h2>Week Ahead — brace for possible rate hike</h2>
+        <p>Into uncertain FOMC; yields vs equity vulnerability.</p>
+        <div class="src">Reuters · Fri Sep 11</div>
+      </a>
+    </div>
+
+    <div class="sec">US</div>
+    <div class="grid">
+      <a class="card" href="https://www.wmbfnews.com/2026/09/11/cia-releases-dozens-presidential-daily-briefs-bin-laden-al-qaida-before-sept-11/">
+        <div class="k">WMBF</div>
+        <h2>CIA releases PDBs on bin Laden / al-Qaida before 9/11</h2>
+        <p>Largest CIA PDB dump on 25th anniversary.</p>
+        <div class="src">WMBF · Fri ~5:36 PM ET</div>
+      </a>
+    </div>
+
+    <div class="sec">Local · Laurinburg / NMB</div>
+    <div class="grid">
+      <a class="card" href="https://www.wmbfnews.com/2026/09/11/grand-stand-pee-dee-communities-mark-25th-anniversary-911/">
+        <div class="k">WMBF</div>
+        <h2>Grand Strand / Pee Dee mark 9/11 25th</h2>
+        <p>Day-of ceremonies — NMB / Myrtle Beach / Conway.</p>
+        <div class="src">WMBF · Fri ~2:26 PM ET</div>
+      </a>
+      <a class="card" href="https://laurinburgexchange.com/news/402285/7-brew-opens-in-laurinburg-donatesmore-than-6k-to-local-united-way">
+        <div class="k">Laurinburg Exchange</div>
+        <h2>7 Brew opens; donates &gt;$6K to United Way</h2>
+        <p>Drive-thru open; Scotland County gift; ~75 jobs.</p>
+        <div class="src">Laurinburg Exchange · Fri Sep 11</div>
+      </a>
+      <a class="card" href="https://www.wmbfnews.com/2026/09/11/piggly-wiggly-announces-closing-myrtle-beach/">
+        <div class="k">WMBF</div>
+        <h2>Piggly Wiggly Myrtle Beach closing</h2>
+        <p>Store closes Oct 11.</p>
+        <div class="src">WMBF · Fri ~4:29 PM ET</div>
+      </a>
+    </div>
+
+    <div class="sec">Also quiet</div>
+    <p class="quiet">Psychology Today · AI on X (0 bookmarks in-window)</p>
 
     <footer>
       Window: after Fri Sep 11 05:00 ET · X 0 · WSJ OK 11 preferred · 30 cards<br>
-      TeamLLM spend (Fri+Sat ET, qwen3.8-27b): in 50232 / out 26119 / total 76351<br>
-      Built for Chief publish — News did not publish · Sat Sep 12 ~5:20 AM ET
+      TeamLLM spend (Fri+Sat ET, qwen3.8-27b): in 54633 / out 27919 / total 82552<br>
+      Built for Chief publish — News did not publish · Sat Sep 12 ~5:24 AM ET
     </footer>
   </main>
 </body>
