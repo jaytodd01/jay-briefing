@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Briefing · Wednesday, October 7</title>
+  <title>Briefing · Thursday, October 8</title>
   <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#0e1013">
   <style>
@@ -40,243 +40,278 @@
 <body>
   <header>
     <div class="brand">Daily briefing</div>
-    <h1>Wednesday, October 7</h1>
-    <div class="when" id="when">last 24h · after Tue Oct 6 05:20 ET · WSJ signed in · X quiet · 32 cards · tip b11462 · News 5:20 closed · ~5:25 AM ET</div>
+    <h1>Thursday, October 8</h1>
+    <div class="when" id="when">last 24h · after Wed Oct 7 05:20 ET · WSJ via wsj.com feeds · X 4 · 38 cards · tip b11494 · News 5:20 closed · ~5:32 AM ET</div>
   </header>
   <main>
-    <p class="lead">An AMD iGPU fix lands in llama.cpp, Mistral ships Large 4, Cursor adds remote control for local agents, OpenAI pushes agents into Atlassian and Ironclad, and futures hold steady as bonds sell off and oil rises.</p>
+    <p class="lead">Grok Bot can now watch X on its own, Claude Haiku 5.5 lands in Cursor, GPT-6 goes to everyone, llama.cpp tips at b11494, and stocks slip as oil and yields climb.</p>
     <div class="sec">Grok / Cursor / xAI</div>
     <div class="grid">
-      <a class="card" href="https://cursor.com/changelog/remote-control-local-agents">
-        <div class="k">Cursor</div>
-        <h2>Remote control for local agents</h2>
-        <p>Drive Cursor agents running on your own machine from the iOS app. First-party ship.</p>
-        <div class="src">Cursor changelog · Tue Oct 6 (date only)</div>
+      <a class="card" href="https://x.com/bot/status/2107949161878606089">
+        <div class="k">@bot on X</div>
+        <h2>Grok Bot can now search, read, and monitor X</h2>
+        <p>The lead. First-party: agents can watch topics and accounts on X natively.</p>
+        <div class="src">X · Wed 5:40 PM ET</div>
+      </a>
+      <a class="card" href="https://x.com/elonmusk/status/2107894231922876510">
+        <div class="k">@elonmusk on X</div>
+        <h2>Most Grok Bot requests will run on a lightning-fast Grok 4.8 when it ships</h2>
+        <p>Model routing plan: heavy models for deep work, a fast Grok for simple asks.</p>
+        <div class="src">X · Wed 2:02 PM ET</div>
+      </a>
+      <a class="card" href="https://x.com/cursor_ai/status/2107897245282799864">
+        <div class="k">@cursor_ai on X</div>
+        <h2>Claude Haiku 5.5 is now available in Cursor</h2>
+        <p>Cursor first-party. About 10x cheaper than Haiku 4.5 on short requests.</p>
+        <div class="src">X · Wed 2:14 PM ET</div>
       </a>
     </div>
-    <p class="quiet">xAI: no first-party post in the window.</p>
-    <div class="sec">AI on X</div>
-    <p class="quiet">QUIET: signed in as @jtodd01, but the bookmarks page redirects to History and the newest bookmark is Mon Oct 5, outside the window. Nothing carded.</p>
+    <p class="quiet">x.ai news and the Cursor changelog: nothing new in the window.</p>
     <div class="sec">Local LLM / TeamLLM</div>
     <div class="grid">
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11462">
-        <div class="k">llama.cpp b11462</div>
-        <h2>TIP: SYCL flash-attention KV buffer cleanup</h2>
-        <p>Current tip at 5:20.</p>
-        <div class="src">GitHub · Wed 3:23 AM ET</div>
+      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11494">
+        <div class="k">llama.cpp b11494</div>
+        <h2>TIP: CUDA assigns four gated-delta-net state columns per warp</h2>
+        <p>Current tip at 5:20. Under it: b11493 SYCL grouped MoE (Thu 4:51 AM ET) and b11491. Earlier in window: b11484 tool-call parser fix and b11480 MoE expert GPU cache, relevant to an EVO-X2-class box.</p>
+        <div class="src">GitHub · Thu 2:07 AM ET</div>
       </a>
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11461">
-        <div class="k">llama.cpp b11461</div>
-        <h2>Vulkan: fix slow checkpoint reads on AMD iGPUs</h2>
-        <p>Directly relevant to an EVO-X2-class AMD box like TeamLLM. Worth pulling.</p>
-        <div class="src">GitHub · Wed 2:53 AM ET</div>
+      <a class="card" href="https://x.com/ggerganov/status/2107908265032229261">
+        <div class="k">@ggerganov on X</div>
+        <h2>llama.cpp on the big stage at today&#x27;s Windows event</h2>
+        <p>Local inference is getting baked into the Windows stack.</p>
+        <div class="src">X · Wed 2:57 PM ET</div>
       </a>
-      <a class="card" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11460">
-        <div class="k">llama.cpp b11460</div>
-        <h2>SYCL: IQ3_S multi-column MMVQ</h2>
-        <p>Second build under the tip.</p>
-        <div class="src">GitHub · Wed 2:02 AM ET</div>
-      </a>
-      <a class="card" href="https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/">
-        <div class="k">TechCrunch</div>
-        <h2>Underdog launches as the most private personal-agent rival yet</h2>
-        <p>Privacy-first personal agent, the local-AI lane.</p>
-        <div class="src">TechCrunch · Tue 4:47 PM ET</div>
+      <a class="card" href="https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000">
+        <div class="k">The Verge</div>
+        <h2>The first Nvidia RTX Spark laptops cost up to $7,000</h2>
+        <p>New class of local-AI boxes, priced well above an EVO-X2.</p>
+        <div class="src">The Verge · Wed 3:05 PM ET</div>
       </a>
     </div>
     <p class="quiet">Qwen and gpt-oss: no new releases.</p>
     <div class="sec">Frontier models</div>
     <div class="grid">
-      <a class="card" href="https://mistral.ai/news/mistral-large-4/">
-        <div class="k">Mistral</div>
-        <h2>Introducing Mistral Large 4</h2>
-        <p>The frontier lead. Mistral’s new flagship, widely covered as Europe’s open-weight comeback.</p>
-        <div class="src">Mistral · Tue 8:00 AM ET</div>
-      </a>
-      <a class="card" href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/">
-        <div class="k">Google DeepMind</div>
-        <h2>EmbeddingGemma 2: an open, lightweight multimodal embedding model</h2>
-        <p>Small open embedding model that could run on a local box for retrieval.</p>
-        <div class="src">DeepMind · Tue 3:57 PM ET</div>
-      </a>
-      <a class="card" href="https://openai.com/index/sharing-ai-progress-in-mathematics">
-        <div class="k">OpenAI</div>
-        <h2>Sharing AI progress in mathematics</h2>
-        <p>OpenAI says its models solved hundreds more open problems and posted 372 proofs to GitHub.</p>
-        <div class="src">OpenAI · Tue 8:00 AM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/tech/ai/openai-ai-math-problems-millennium-prize-23d14511">
-        <div class="k">WSJ</div>
-        <h2>AI solved one math problem and everyone freaked out. It just cracked hundreds more.</h2>
-        <p>The WSJ read on the same OpenAI math result.</p>
-        <div class="src">WSJ · Tue 9:09 PM ET</div>
-      </a>
-      <a class="card" href="https://www.anthropic.com/news/cyber-verification-program">
+      <a class="card" href="https://www.anthropic.com/claude-haiku-5-5">
         <div class="k">Anthropic</div>
-        <h2>Expanding the Cyber Verification Program</h2>
-        <p>Vetted security teams get wider Claude access.</p>
-        <div class="src">Anthropic · Tue Oct 6 (date only)</div>
+        <h2>Introducing Claude Haiku 5.5</h2>
+        <p>Cheapest, fastest Claude. Agent fleets get cheaper to run.</p>
+        <div class="src">Anthropic · Wed Oct 7 (date only; @AnthropicAI 2:01 PM ET)</div>
+      </a>
+      <a class="card" href="https://openai.com/index/gpt-6-for-everyone">
+        <div class="k">OpenAI</div>
+        <h2>GPT-6 and Intelligent UI for everyone</h2>
+        <p>GPT-6 goes to all ChatGPT users, and answers can come back as charts, buttons and mini-apps.</p>
+        <div class="src">OpenAI · Wed Oct 7 (date only; @OpenAI 2:05 PM ET)</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b">
+        <div class="k">WSJ</div>
+        <h2>The AI price war is heating up, and OpenAI is gaining ground on Anthropic</h2>
+        <p>Ties Haiku 5.5 and GPT-6 together as a pricing fight.</p>
+        <div class="src">WSJ · Wed 8:00 PM ET</div>
+      </a>
+      <a class="card" href="https://www.theguardian.com/technology/2026/oct/07/openai-mathematical-findings-concerns">
+        <div class="k">The Guardian</div>
+        <h2>OpenAI&#x27;s release of mathematical findings draws concerns from experts</h2>
+        <p>OpenAI posted 300+ claimed solutions; mathematicians push back.</p>
+        <div class="src">The Guardian · Wed 11:40 AM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94">
+        <div class="k">WSJ</div>
+        <h2>Fired OpenAI researchers ask the company to preserve visibility into AI reasoning</h2>
+        <p>Safety fight over whether model reasoning stays inspectable.</p>
+        <div class="src">WSJ · Wed 7:46 PM ET</div>
+      </a>
+      <a class="card" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/">
+        <div class="k">Google DeepMind</div>
+        <h2>Making it easier to identify AI-generated content globally</h2>
+        <p>SynthID detector opens to the public.</p>
+        <div class="src">Google · Wed 10:00 AM ET</div>
       </a>
     </div>
+    <p class="quiet">Mistral and Meta: no model release in the window.</p>
     <div class="sec">Proven agents / CoS</div>
     <div class="grid">
-      <a class="card" href="https://openai.com/index/atlassian-partnership">
-        <div class="k">OpenAI</div>
-        <h2>Atlassian and OpenAI expand partnership to turn enterprise knowledge into action</h2>
-        <p>Company knowledge wired into agents that act, close to the chief-of-staff idea.</p>
-        <div class="src">OpenAI · Tue 12:00 PM ET</div>
-      </a>
-      <a class="card" href="https://openai.com/index/advancing-computer-use-with-ironclad">
-        <div class="k">OpenAI</div>
-        <h2>Advancing computer use with Ironclad</h2>
-        <p>Production computer-use agent for contract work.</p>
-        <div class="src">OpenAI · Tue 6:00 AM ET</div>
-      </a>
-      <a class="card" href="https://openai.com/index/jump-trading">
-        <div class="k">OpenAI</div>
-        <h2>How Jump Trading is scaling quant research with ChatGPT</h2>
-        <p>A named firm running AI in production research.</p>
-        <div class="src">OpenAI · Tue 8:00 AM ET</div>
-      </a>
-      <a class="card" href="https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/">
-        <div class="k">TechCrunch</div>
-        <h2>The next hurdle for AI agents: getting websites to let them in</h2>
-        <p>Site access is becoming the bottleneck for working agents.</p>
-        <div class="src">TechCrunch · Tue 3:56 PM ET</div>
-      </a>
-      <a class="card" href="https://the-decoder.com/wikimedia-confirms-openais-rogue-ai-agents-edited-wikis-tried-to-compromise-tools-and-hammered-its-infrastructure/">
+      <a class="card" href="https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/">
         <div class="k">The Decoder</div>
-        <h2>Wikimedia confirms OpenAI’s rogue agents edited wikis and hammered its infrastructure</h2>
-        <p>The failure side of unsupervised agents, now confirmed.</p>
-        <div class="src">The Decoder · Tue 2:29 PM ET</div>
+        <h2>OpenAI launches a Decisions API that reduces evaluations to yes, no, or pick one</h2>
+        <p>A structured judgment step for agent pipelines.</p>
+        <div class="src">The Decoder · Wed 11:36 AM ET</div>
       </a>
-      <a class="card" href="https://the-decoder.com/insurers-brace-for-millions-in-claims-as-ai-agents-spin-out-of-control/">
-        <div class="k">The Decoder</div>
-        <h2>Insurers brace for millions in claims as AI agents spin out of control</h2>
-        <p>Agent risk is turning into an insurance line.</p>
-        <div class="src">The Decoder · Tue 12:06 PM ET</div>
+      <a class="card" href="https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence">
+        <div class="k">The Verge</div>
+        <h2>Microsoft is giving Copilot more control over Windows and your files</h2>
+        <p>The agent-as-operating-system idea on the desktop.</p>
+        <div class="src">The Verge · Wed 2:01 PM ET</div>
       </a>
-      <a class="card" href="https://www.cnbc.com/2026/10/06/meta-joins-companies-to-tame-chaos-of-doing-business-with-ai-bots.html">
+      <a class="card" href="https://www.cnbc.com/2026/10/08/manus-fund-raise-meta-muse-tencent.html">
         <div class="k">CNBC</div>
-        <h2>Meta joins a group of companies to tame the chaos of doing business with AI bots</h2>
-        <p>Industry norms for bot-to-business commerce.</p>
-        <div class="src">CNBC · Tue 2:48 PM ET</div>
+        <h2>AI startup Manus raises $500 million in its first round since the Meta breakup</h2>
+        <p>A general-agent company gets re-capitalized.</p>
+        <div class="src">CNBC · Thu 2:59 AM ET</div>
       </a>
     </div>
+    <p class="quiet">No named-customer production case in the window.</p>
     <div class="sec">Tech / AI</div>
     <div class="grid">
-      <a class="card" href="https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media">
-        <div class="k">The Verge</div>
-        <h2>ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media</h2>
-        <p>New this hour. The advocacy group urges OpenAI to keep teens off ChatGPT. Axios has it too.</p>
-        <div class="src">The Verge · Wed 5:00 AM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/finance/venture-firm-behind-chip-startup-groq-targets-10-billion-megafund-030ce4a0">
+      <a class="card" href="https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032">
         <div class="k">WSJ</div>
-        <h2>Exclusive: venture firm behind chip startup Groq targets a $10 billion megafund</h2>
-        <p>Big money still chasing inference chips.</p>
-        <div class="src">WSJ · Wed 5:00 AM ET</div>
+        <h2>Oracle, Broadcom and SpaceX seek blockbuster debt deals to pay for AI chips</h2>
+        <p>AI buildout is now running on debt.</p>
+        <div class="src">WSJ · Wed 5:01 PM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/tech/ai/ai-neocloud-lambda-is-raising-4-billion-in-final-round-before-planned-ipo-568182f9">
-        <div class="k">WSJ</div>
-        <h2>AI-computing startup Lambda raises $4 billion in a final round before its IPO</h2>
-        <p>GPU-cloud capital ahead of a listing.</p>
-        <div class="src">WSJ · Tue 1:28 PM ET</div>
+      <a class="card" href="https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html">
+        <div class="k">CNBC</div>
+        <h2>TSMC&#x27;s September sales hit another record as AI drives chip demand</h2>
+        <p>Another record month for the AI supply chain.</p>
+        <div class="src">CNBC · Thu 2:50 AM ET</div>
+      </a>
+      <a class="card" href="https://www.bbc.co.uk/news/articles/c687z8127302o">
+        <div class="k">BBC</div>
+        <h2>AI chip boom pushes Samsung profits to a record $80bn</h2>
+        <p>Memory supercycle.</p>
+        <div class="src">BBC · Wed 9:59 PM ET</div>
+      </a>
+      <a class="card" href="https://openai.com/index/teens-learn-and-plan">
+        <div class="k">OpenAI</div>
+        <h2>Helping teens learn, plan, and shape the future of AI</h2>
+        <p>ChatGPT for Teens, which Common Sense Media called an unacceptable risk.</p>
+        <div class="src">OpenAI · Wed 8:00 AM ET</div>
+      </a>
+      <a class="card" href="https://www.bbc.co.uk/news/articles/cx5yn46j41zpo">
+        <div class="k">BBC</div>
+        <h2>Margaret Hamilton, whose software helped land Apollo 11, dies at 90</h2>
+        <p>A software-engineering pioneer.</p>
+        <div class="src">BBC · Thu 1:10 AM ET</div>
       </a>
     </div>
     <div class="sec">Markets</div>
     <div class="grid">
-      <a class="card" href="https://www.wsj.com/finance/stocks/stocks-futures-steady-as-bond-selloff-extends-oil-prices-rise-ddd8a40e">
+      <a class="card" href="https://www.wsj.com/finance/commodities-futures/global-stocks-fall-on-higher-oil-prices-ai-pullback-05f7b87e">
         <div class="k">WSJ</div>
-        <h2>Stock futures steady as the bond selloff extends and oil rises</h2>
-        <p>Pre-open frame. 10-year auction and Fed minutes are today’s catalysts.</p>
-        <div class="src">WSJ · Wed 4:56 AM ET</div>
+        <h2>Global stocks fall on higher oil prices and an AI pullback</h2>
+        <p>Pre-open tone. Wednesday close: U.S. stocks fell as Treasury yields tested multidecade highs. The dollar stays lifted by rate-rise bets (WSJ 5:11 AM ET).</p>
+        <div class="src">WSJ · Thu 4:31 AM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/business/energy-oil/oil-prices-rise-as-houthi-attacks-u-s-gulf-storm-raise-supply-risks-9a0aacf8">
+      <a class="card" href="https://www.wsj.com/world/middle-east/oil-prices-rise-more-than-2-amid-houthi-attacks-u-s-gulf-shut-ins-51687549">
         <div class="k">WSJ</div>
-        <h2>Oil rises as Houthi attacks and a Gulf storm raise supply risks</h2>
-        <p>Fuel and freight cost signal. Gold slips ahead of the Fed minutes.</p>
-        <div class="src">WSJ · Wed 4:29 AM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/finance/stocks/the-s-p-500-hits-a-new-record-high-powered-by-techand-not-much-else-66e01705">
-        <div class="k">WSJ</div>
-        <h2>The S&amp;P 500 hits a record, powered by tech and not much else</h2>
-        <p>A narrow AI-led rally.</p>
-        <div class="src">WSJ · Tue 5:33 PM ET</div>
-      </a>
-      <a class="card" href="https://www.wsj.com/economy/global/imf-chief-tells-economic-leaders-the-time-to-act-is-now-cef10d0a">
-        <div class="k">WSJ</div>
-        <h2>IMF chief tells economic leaders the time to act is now</h2>
-        <p>Energy shock versus the AI boom.</p>
-        <div class="src">WSJ · Wed 2:19 AM ET</div>
+        <h2>Oil rises more than 2% on Houthi attacks and U.S. Gulf shut-ins</h2>
+        <p>Fuel and freight cost signal, with Isaias in the Gulf.</p>
+        <div class="src">WSJ · Thu 4:09 AM ET</div>
       </a>
     </div>
     <div class="sec">US</div>
     <div class="grid">
-      <a class="card" href="https://www.wsj.com/politics/policy/bessent-treasury-tension-turnover-unmet-economic-goals-b552be0a">
-        <div class="k">WSJ</div>
-        <h2>Inside Bessent’s Treasury: tension, turnover and unmet goals</h2>
-        <p>Inside the department steering rates and tariffs.</p>
-        <div class="src">WSJ · Tue 9:00 PM ET</div>
+      <a class="card" href="https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html">
+        <div class="k">CNBC</div>
+        <h2>Trump says he is not keen on an Iran deal as the U.S. reportedly prepares for &#x27;massive bombing&#x27;</h2>
+        <p>The biggest risk on the board this morning.</p>
+        <div class="src">CNBC · Wed 11:29 PM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/world/middle-east/preparing-to-fire-hear-the-radio-commands-enforcing-the-u-s-blockade-of-iran-5f85dda9">
+      <a class="card" href="https://www.wsj.com/politics/elections/democrats-expect-to-win-the-house-heres-their-to-do-list-4e5976d8">
         <div class="k">WSJ</div>
-        <h2>‘Preparing to fire’: hear the radio commands enforcing the U.S. blockade of Iran</h2>
-        <p>What the blockade sounds like at sea.</p>
-        <div class="src">WSJ · Tue 7:00 PM ET</div>
+        <h2>Democrats expect to win the House. Here&#x27;s their to-do list.</h2>
+        <p>What a flipped House would try to do.</p>
+        <div class="src">WSJ · Wed 9:44 PM ET</div>
       </a>
     </div>
     <div class="sec">World</div>
     <div class="grid">
-      <a class="card" href="https://www.wsj.com/world/russia/u-s-escalates-pressure-on-russia-over-siberia-lab-death-6f61225a">
+      <a class="card" href="https://www.wsj.com/world/middle-east/israel-orders-u-k-consulate-in-jerusalem-closed-over-west-bank-trade-ban-aec88b46">
         <div class="k">WSJ</div>
-        <h2>U.S. escalates pressure on Russia over a Siberia lab death</h2>
-        <p>CNBC says Trump will talk to Putin very soon (Wed 12:12 AM ET).</p>
-        <div class="src">WSJ · Tue 5:55 PM ET</div>
+        <h2>Israel orders the U.K. consulate in Jerusalem closed over a West Bank trade ban</h2>
+        <p>New this hour.</p>
+        <div class="src">WSJ · Thu 5:05 AM ET</div>
       </a>
-      <a class="card" href="https://www.wsj.com/world/middle-east/yemens-houthi-rebels-strike-two-airports-in-saudi-arabia-072f4dd3">
+      <a class="card" href="https://www.wsj.com/world/middle-east/houthis-escalate-attacks-on-saudi-airports-killing-3-and-wounding-dozens-f81ee1ca">
         <div class="k">WSJ</div>
-        <h2>Yemen’s Houthi rebels strike two airports in Saudi Arabia</h2>
-        <p>Red Sea escalation behind this morning’s oil move.</p>
-        <div class="src">WSJ · Tue 10:32 PM ET</div>
+        <h2>Houthis escalate attacks on Saudi airports, killing 3</h2>
+        <p>Red Sea escalation behind the oil move.</p>
+        <div class="src">WSJ · Wed 9:57 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/world/europe/heavy-russian-attack-kills-at-least-24-in-ukraine-including-children-147a90c1">
+        <div class="k">WSJ</div>
+        <h2>Heavy Russian attack kills at least 24 in Ukraine</h2>
+        <p>Also: a Ukrainian drone strike halted a major Yandex data center (CNBC, Thu 4:17 AM ET).</p>
+        <div class="src">WSJ · Wed 11:25 AM ET</div>
+      </a>
+      <a class="card" href="https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html">
+        <div class="k">CNBC</div>
+        <h2>Trump doesn&#x27;t think the Russia plague incident is a bioweapon, plans Putin call</h2>
+        <p>Follow-up to the Siberia lab death.</p>
+        <div class="src">CNBC · Wed 5:20 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/world/europe/france-considers-issuing-more-shorter-term-debt-amid-bond-market-turmoil-db2966fd">
+        <div class="k">WSJ</div>
+        <h2>France considers issuing more shorter-term debt after bond-market turmoil</h2>
+        <p>European bond stress feeding global yields.</p>
+        <div class="src">WSJ · Wed 11:13 AM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/science/nobel-prize-for-chemistry-awarded-for-work-on-asymmetric-synthesis-9d6e3915">
+        <div class="k">WSJ</div>
+        <h2>Nobel Prize for Chemistry goes to breakthroughs that advanced modern pharmaceuticals</h2>
+        <p>Asymmetric synthesis.</p>
+        <div class="src">WSJ · Wed 11:45 AM ET</div>
       </a>
     </div>
     <div class="sec">Business strategy</div>
     <div class="grid">
-      <a class="card" href="https://www.wsj.com/business/media/a-high-stakes-gambit-clinched-paramounts-warner-deal-873905b0">
+      <a class="card" href="https://www.wsj.com/business/retail/wittington-investments-in-8-9-billion-deal-to-buy-british-pharmacy-chain-boots-d2b91a85">
         <div class="k">WSJ</div>
-        <h2>A high-stakes gambit clinched Paramount’s Warner deal</h2>
-        <p>How the $110 billion deal got done.</p>
-        <div class="src">WSJ · Tue 10:44 PM ET</div>
+        <h2>Canada&#x27;s Weston family to buy Boots for $8.9 billion</h2>
+        <p>Family capital buying a struggling retail brand.</p>
+        <div class="src">WSJ · Wed 10:34 AM ET</div>
+      </a>
+      <a class="card" href="https://www.wsj.com/business/earnings/uniqlo-owner-posts-record-annual-profit-expects-further-growth-27ad2fe8">
+        <div class="k">WSJ</div>
+        <h2>Uniqlo owner posts record annual profit and expects more growth</h2>
+        <p>Operator discipline in a tough retail market.</p>
+        <div class="src">WSJ · Thu 3:00 AM ET</div>
+      </a>
+      <a class="card" href="https://www.cnbc.com/2026/10/07/webull-china-national-security-risk-congress.html">
+        <div class="k">CNBC</div>
+        <h2>Webull&#x27;s China ties are a national security risk, a House panel finds; stock drops 18%</h2>
+        <p>China exposure as a business risk.</p>
+        <div class="src">CNBC · Wed 9:46 AM ET</div>
+      </a>
+      <a class="card" href="https://www.cnbc.com/2026/10/08/elon-musk-starlink-spacex-jio-airtel-india.html">
+        <div class="k">CNBC</div>
+        <h2>Musk blames Indian &#x27;oligarchs&#x27; for stalling the Starlink launch</h2>
+        <p>India rejects the claim (TechCrunch, Thu 2:14 AM ET).</p>
+        <div class="src">CNBC · Thu 4:43 AM ET</div>
       </a>
     </div>
     <div class="sec">Psychology</div>
     <div class="grid">
-      <a class="card" href="https://www.psychologytoday.com/us/blog/things-to-consider/202610/ai-is-here-what-therapists-can-do-now">
+      <a class="card" href="https://www.psychologytoday.com/us/blog/am-i-right/202610/ai-didnt-write-this-post">
         <div class="k">Psychology Today</div>
-        <h2>AI is here: what therapists can do now</h2>
-        <p>How clinicians should respond as clients bring AI into therapy.</p>
-        <div class="src">Psychology Today · Tue 7:59 PM ET</div>
+        <h2>AI didn&#x27;t write this post</h2>
+        <p>On authorship and trust when AI writes everything.</p>
+        <div class="src">Psychology Today · Wed 10:21 AM ET</div>
       </a>
     </div>
     <div class="sec">Local</div>
     <div class="grid">
-      <a class="card" href="https://www.wmbfnews.com/2026/10/05/first-alert-tropical-development-chances-increasing-gulf/">
-        <div class="k">WMBF</div>
-        <h2>First Alert: Tropical Storm Isaias forms in the Gulf</h2>
-        <p>New this hour. Watch the track for the weekend on the Grand Strand.</p>
-        <div class="src">WMBF · updated Wed 5:10 AM ET</div>
+      <a class="card" href="https://www.npr.org/2026/10/08/g-s1-147095/weather-hurricane-season">
+        <div class="k">NPR</div>
+        <h2>Isaias strengthens into the first hurricane of the Atlantic season</h2>
+        <p>WMBF flags a weekend heavy-rain threat for the Grand Strand (Thu 4:19 AM ET).</p>
+        <div class="src">NPR · Thu 1:22 AM ET</div>
       </a>
-      <a class="card" href="https://www.wmbfnews.com/2026/10/07/data-center-moratorium-vote-postponed-after-fight-protests/">
+      <a class="card" href="https://carolinapublicpress.org/82499/a-familys-loss-triggers-nc-probe-of-scotland-ems/">
+        <div class="k">Carolina Public Press</div>
+        <h2>A family&#x27;s loss triggers an NC probe of Scotland County EMS</h2>
+        <p>Laurinburg&#x27;s county EMS under state review.</p>
+        <div class="src">Carolina Public Press · Wed 12:42 PM ET</div>
+      </a>
+      <a class="card" href="https://www.wmbfnews.com/2026/10/07/north-myrtle-beach-drone-delivery-program-draws-concerns/">
         <div class="k">WMBF</div>
-        <h2>Data center moratorium vote postponed after fight and protests</h2>
-        <p>Local AI-infrastructure politics on the Grand Strand.</p>
-        <div class="src">WMBF · Tue 10:22 PM ET</div>
+        <h2>North Myrtle Beach drone delivery program draws concerns</h2>
+        <p>Local pushback on drone delivery.</p>
+        <div class="src">WMBF · Wed 7:08 PM ET</div>
       </a>
     </div>
-    <p class="quiet">Laurinburg QUIET: no Laurinburg Exchange story with a publisher link in the window.</p>
     <footer>
-      Window: last 24h only · TeamLLM spend (past 24h): in 11,505 / out 3,083 / total 14,588 (qwen3.8-27b; Oct 6 + Oct 7 so far) · News wrote pack; Chief publishes · Invented URLs: none
+      Window: last 24h only · TeamLLM spend (past 24h): in 12,834 / out 4,257 / total 17,091 (qwen3.8-27b; Oct 7 + Oct 8 so far) · News wrote pack; Chief publishes · Invented URLs: none
     </footer>
   </main>
 </body>
